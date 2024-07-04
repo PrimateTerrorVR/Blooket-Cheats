@@ -2126,34 +2126,20 @@
             }
         }],
         admin:[{
-            name: "Remove all Taken Blooks",
-            description: "Removes all taken blooks, allowing you to use any taken blook. Only works in lobby.",
-            run: function() {
-                const stateNode = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
-                stateNode.setState({
-                    takenBlooks: {
-                        includes: e => !1
-                    }
-                });
-                stateNode.setState = function(a, b) {
-                    if (a?.takenBlooks) {
-                        return;
-                    }
-                    stateNode.updater.enqueueSetState(stateNode, a, b, "setState");
-                }
-            },
-
-            name: "Crash Game",
-            description: "Crashes the host's game",
-            run: function() {
-                var e = Object.values(function e(t = document.querySelector("#app")) {
-                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
-                }())[1].children[0]._owner.stateNode;
-                e.props.liveGameController.setVal({
-                    path: `c/${e.props.client.name}/b/toString`,
-                    val: "Crashed"
-                })
-            }
+            name: "Update Logs",
+            description: "Logs on updates",
+            type: "toggle",
+            enabled: false,
+            data: null,        
+            run: alert("Enebled")
+                      }
+        }, {
+            name: "Anti-Kick",
+            description: "Anti Kick only for admins. This is because it is in beta",
+            type: "toggle",
+            enabled: true,
+            data: null,        
+            run: alert("Enebled")
         }],
             voyage: [{
             name: "Heist ESP",
