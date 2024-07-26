@@ -1788,11 +1788,44 @@
             name: "Use any Blook",
             description: "Allows you to play as any blook. Only works in lobby.",
             run: function() {
-                Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode.setState({
-                    unlocks: {
-                        includes: e => !0
+                (() => {
+                    const stateNode = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                    let i = document.createElement('iframe');
+                    document.body.append(i);
+                    const alert = i.contentWindow.alert.bind(window);
+                    i.remove();
+                    if (!(stateNode.state.unlocks || stateNode.state.blookData)) {
+                        alert("This must be run on the lobby or dashboard!");
+                        return;
                     }
-                });
+                    if (stateNode.state.blookData) {
+                        let oe = Object.entries;
+                        Object.entries = function(a) {
+                            if (a?.Chick) {
+                                allBlooks(a);
+                                Object.entries = oe;
+                            }
+                            return oe.apply(this, arguments);
+                        }
+                        stateNode.render();
+
+                        function allBlooks(blooks) {
+                            let blookData = {};
+                            stateNode.setState({
+                                blookData: Object.keys(blooks).reduce((a, b) => (a[b] = stateNode.state.blookData[b] || 1, a), {}),
+                                allSets: Object.values(blooks).reduce((a, b) => {
+                                    return !a.includes(b.set) && a.push(b.set), a
+                                }, [])
+                            });
+                        }
+                    } else {
+                        stateNode.setState({
+                            unlocks: {
+                                includes: e => 1
+                            }
+                        });
+                    }
+                })();
             }
         }, {
             name: "Remove all Taken Blooks",
