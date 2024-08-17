@@ -266,14 +266,14 @@
             display: "flex",
             flexDirection: "column"
         },
-        innerHTML: '<span style="text-shadow: 1px 1px rgb(0 0 0 / 40%); font-size: 0.8em;">Cheats<sup>v14.0</sup></span>'
+        innerHTML: '<span style="text-shadow: 1px 1px rgb(0 0 0 / 40%); font-size: 0.8em;">Red<sup>Tiger</sup></span>'
     }, l("a", {
         className: "bigButton",
         style: {
             cursor: "pointer",
             display: "block",
             fontFamily: "Titan One",
-            margin: "20px auto 10px",
+            margin: "20px auto 20px",
             position: "relative",
             transition: ".25s",
             textDecoration: "none",
