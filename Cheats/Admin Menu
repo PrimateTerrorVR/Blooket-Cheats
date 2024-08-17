@@ -1,0 +1,263 @@
+(function() {
+    // Create and style the passcode input box
+    const passcodeInput = document.createElement('input');
+    passcodeInput.id = 'passcodeInput';
+    passcodeInput.type = 'text';
+    passcodeInput.placeholder = 'Enter Passcode';
+    passcodeInput.style.position = 'fixed';
+    passcodeInput.style.left = '50%';
+    passcodeInput.style.top = '50%';
+    passcodeInput.style.transform = 'translate(-50%, -50%)';
+    passcodeInput.style.padding = '10px';
+    passcodeInput.style.fontSize = '16px';
+    passcodeInput.style.borderRadius = '5px';
+    passcodeInput.style.border = '1px solid #ccc';
+    document.body.appendChild(passcodeInput);
+
+    // Create and style the admin menu
+    const adminMenu = document.createElement('div');
+    adminMenu.id = 'adminMenu';
+    adminMenu.style.width = '400px';
+    adminMenu.style.padding = '20px';
+    adminMenu.style.backgroundColor = '#444';
+    adminMenu.style.color = 'white';
+    adminMenu.style.position = 'fixed';
+    adminMenu.style.zIndex = '1000';
+    adminMenu.style.borderRadius = '8px';
+    adminMenu.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.3)';
+    adminMenu.style.cursor = 'move';
+    adminMenu.style.left = '50%';
+    adminMenu.style.top = '50%';
+    adminMenu.style.transform = 'translate(-50%, -50%)';
+    adminMenu.style.display = 'none'; // Initially hidden
+    adminMenu.innerHTML = `
+        <h1 style="text-align:center; font-size:20px; margin-top:0;">Admin Menu</h1>
+        <button id="navBtn" style="width:100%; padding:12px; margin:10px 0; background-color:#57a773; color:white; border:none; border-radius:6px; cursor:pointer;">Navigate to Webpage</button>
+        <button id="bgBtn" style="width:100%; padding:12px; margin:10px 0; background-color:#f79c42; color:white; border:none; border-radius:6px; cursor:pointer;">Change Background Color</button>
+        <button id="wfBtn" style="width:100%; padding:12px; margin:10px 0; background-color:#e84c3c; color:white; border:none; border-radius:6px; cursor:pointer;">Toggle Wireframe View</button>
+        <button id="assetBtn" style="width:100%; padding:12px; margin:10px 0; background-color:#8e44ad; color:white; border:none; border-radius:6px; cursor:pointer;">Change Assets</button>
+        <button id="hackBtn" style="width:100%; padding:12px; margin:10px 0; background-color:#3498db; color:white; border:none; border-radius:6px; cursor:pointer;">Useful Hacks</button>
+        <button id="settingsBtn" style="width:100%; padding:12px; margin:10px 0; background-color:#2ecc71; color:white; border:none; border-radius:6px; cursor:pointer;">Settings</button>
+        <button id="prevPageBtn" style="width:48%; padding:12px; margin:10px 1%; background-color:#9b59b6; color:white; border:none; border-radius:6px; cursor:pointer;">← Previous</button>
+        <button id="nextPageBtn" style="width:48%; padding:12px; margin:10px 1%; background-color:#9b59b6; color:white; border:none; border-radius:6px; cursor:pointer;">Next →</button>
+        <button id="logoutBtn" style="width:100%; padding:12px; margin:10px 0; background-color:#1abc9c; color:white; border:none; border-radius:6px; cursor:pointer;">Logout</button>
+    `;
+    document.body.appendChild(adminMenu);
+
+    // Create and style the page container
+    const pageContainer = document.createElement('div');
+    pageContainer.id = 'pageContainer';
+    pageContainer.style.display = 'none'; // Initially hidden
+    pageContainer.style.position = 'fixed';
+    pageContainer.style.top = '50%';
+    pageContainer.style.left = '50%';
+    pageContainer.style.transform = 'translate(-50%, -50%)';
+    pageContainer.style.width = '400px';
+    pageContainer.style.padding = '20px';
+    pageContainer.style.backgroundColor = '#444';
+    pageContainer.style.color = 'white';
+    pageContainer.style.borderRadius = '8px';
+    pageContainer.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.3)';
+    pageContainer.style.zIndex = '1000';
+    pageContainer.innerHTML = `
+        <h2 style="text-align:center; font-size:18px; margin-top:0;">Page Navigation</h2>
+        <div id="pages" style="text-align:center;">
+            <div id="page1" style="display:block;">
+                <p>Welcome to Page 1</p>
+            </div>
+            <div id="page2" style="display:none;">
+                <p>Welcome to Page 2</p>
+            </div>
+            <div id="page3" style="display:none;">
+                <p>Welcome to Page 3</p>
+            </div>
+            <!-- Add more pages as needed -->
+        </div>
+    `;
+    document.body.appendChild(pageContainer);
+
+    // Create and style the settings container
+    const settingsContainer = document.createElement('div');
+    settingsContainer.id = 'settingsContainer';
+    settingsContainer.style.display = 'none'; // Initially hidden
+    settingsContainer.style.position = 'fixed';
+    settingsContainer.style.top = '50%';
+    settingsContainer.style.left = '50%';
+    settingsContainer.style.transform = 'translate(-50%, -50%)';
+    settingsContainer.style.width = '400px';
+    settingsContainer.style.padding = '20px';
+    settingsContainer.style.backgroundColor = '#444';
+    settingsContainer.style.color = 'white';
+    settingsContainer.style.borderRadius = '8px';
+    settingsContainer.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.3)';
+    settingsContainer.style.zIndex = '1000';
+    settingsContainer.innerHTML = `
+        <h2 style="text-align:center; font-size:18px; margin-top:0;">Settings</h2>
+        <button id="toggleDarkMode" style="width:100%; padding:12px; margin:10px 0; background-color:#34495e; color:white; border:none; border-radius:6px; cursor:pointer;">Toggle Dark Mode</button>
+    `;
+    document.body.appendChild(settingsContainer);
+
+    // Create a state for wireframe view and dark mode
+    let wireframeEnabled = false;
+    let darkModeEnabled = false;
+
+    // Make the menu draggable
+    function dragElement(elmnt) {
+        let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+        elmnt.onmousedown = dragMouseDown;
+
+        function dragMouseDown(e) {
+            e = e || window.event;
+            e.preventDefault();
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            document.onmouseup = closeDragElement;
+            document.onmousemove = elementDrag;
+        }
+
+        function elementDrag(e) {
+            e = e || window.event;
+            e.preventDefault();
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+            elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+        }
+
+        function closeDragElement() {
+            document.onmouseup = null;
+            document.onmousemove = null;
+        }
+    }
+
+    dragElement(document.getElementById("adminMenu"));
+
+    // Button functionalities
+    document.getElementById('navBtn').onclick = function() {
+        const page = prompt('Select a page:\n1. Stats\n2. Blooks\n3. Market\n4. Discover\n5. Create\n6. My Sets\n7. Favorites');
+        const urls = [
+            'https://dashboard.blooket.com/stats',
+            'https://dashboard.blooket.com/blooks',
+            'https://dashboard.blooket.com/market',
+            'https://dashboard.blooket.com/discover',
+            'https://dashboard.blooket.com/create',
+            'https://dashboard.blooket.com/my-sets',
+            'https://dashboard.blooket.com/favorites'
+        ];
+        const index = parseInt(page) - 1; // Convert to zero-based index
+        if (index >= 0 && index < urls.length) {
+            window.open(urls[index], '_blank'); // Open in new tab
+        } else {
+            alert('Invalid selection!');
+        }
+    };
+
+    document.getElementById('bgBtn').onclick = function() {
+        const color = prompt('Enter the background color (e.g., #ff0000 or red):');
+        if (color) {
+            document.body.style.backgroundColor = color;
+        }
+    };
+
+    document.getElementById('wfBtn').onclick = function() {
+        wireframeEnabled = !wireframeEnabled;
+        if (wireframeEnabled) {
+            document.querySelectorAll('*').forEach(el => {
+                el.style.outline = '1px solid black';
+            });
+            alert('Wireframe view enabled');
+        } else {
+            document.querySelectorAll('*').forEach(el => {
+                el.style.outline = 'none';
+            });
+            alert('Wireframe view disabled');
+        }
+    };
+
+    document.getElementById('assetBtn').onclick = function() {
+        alert('Assets have been changed randomly!');
+    };
+
+    document.getElementById('hackBtn').onclick = function() {
+        const hacks = [
+            () => document.querySelectorAll('p').forEach(p => p.style.fontFamily = 'Arial'),
+            () => document.body.style.backgroundColor = randomColor(),
+            () => document.querySelectorAll('*').forEach(el => el.style.border = '5px dashed ' + randomColor()),
+            () => document.querySelectorAll('a').forEach(a => a.style.color = randomColor()),
+            () => document.querySelectorAll('*').forEach(el => el.style.transform = 'rotate(' + Math.random() * 360 + 'deg)'),
+            () => document.querySelectorAll('*').forEach(el => el.style.filter = 'brightness(' + Math.random() * 2 + ')'),
+            () => document.querySelectorAll('*').forEach(el => el.style.opacity = Math.random()),
+            () => document.querySelectorAll('*').forEach(el => el.style.transform = 'scale(' + (Math.random() * 1.5) + ')'),
+            () => document.querySelectorAll('*').forEach(el => el.style.filter = 'sepia(' + Math.random() + ')'),
+            () => document.querySelectorAll('button').forEach(btn => btn.style.backgroundColor = randomColor()),
+            () => document.querySelectorAll('h1').forEach(h1 => h1.style.textAlign = 'center'),
+            () => document.querySelectorAll('input, select, textarea').forEach(el => el.style.borderRadius = '15px'),
+            () => document.querySelectorAll('body').forEach(body => body.style.fontSize = '20px'),
+            () => document.querySelectorAll('div').forEach(div => div.style.border = '1px solid ' + randomColor()),
+            () => document.querySelectorAll('*').forEach(el => el.style.boxShadow = '0 0 15px 5px rgba(0,0,0,0.5)'),
+            () => document.querySelectorAll('body').forEach(body => body.style.transform = 'rotate(' + (Math.random() * 10 - 5) + 'deg)'),
+            () => document.querySelectorAll('h1, h2, h3').forEach(h => h.style.color = randomColor()),
+            () => document.querySelectorAll('*').forEach(el => el.style.borderColor = randomColor()),
+            () => document.querySelectorAll('*').forEach(el => el.style.backgroundColor = randomColor()),
+            () => document.querySelectorAll('*').forEach(el => el.style.filter = 'invert(' + Math.random() + ')'),
+            () => document.querySelectorAll('*').forEach(el => el.style.fontFamily = 'Courier New')
+        ];
+
+        hacks.forEach(hack => hack());
+        alert('Hacks applied!');
+    };
+
+    // Handle page navigation
+    let currentPage = 0;
+    const pages = document.querySelectorAll('#pageContainer > #pages > div');
+    document.getElementById('prevPageBtn').onclick = function() {
+        pages[currentPage].style.display = 'none';
+        currentPage = (currentPage > 0) ? currentPage - 1 : pages.length - 1;
+        pages[currentPage].style.display = 'block';
+    };
+
+    document.getElementById('nextPageBtn').onclick = function() {
+        pages[currentPage].style.display = 'none';
+        currentPage = (currentPage < pages.length - 1) ? currentPage + 1 : 0;
+        pages[currentPage].style.display = 'block';
+    };
+
+    document.getElementById('settingsBtn').onclick = function() {
+        settingsContainer.style.display = 'block';
+    };
+
+    document.getElementById('toggleDarkMode').onclick = function() {
+        darkModeEnabled = !darkModeEnabled;
+        if (darkModeEnabled) {
+            adminMenu.style.backgroundColor = '#222';
+            adminMenu.style.color = '#ddd';
+            settingsContainer.style.backgroundColor = '#222';
+            settingsContainer.style.color = '#ddd';
+        } else {
+            adminMenu.style.backgroundColor = '#444';
+            adminMenu.style.color = 'white';
+            settingsContainer.style.backgroundColor = '#444';
+            settingsContainer.style.color = 'white';
+        }
+    };
+
+    // Password validation and menu display
+    document.getElementById('passcodeInput').addEventListener('keyup', function(e) {
+        if (e.key === 'Enter') {
+            if (e.target.value === 'LemonRed') {
+                e.target.style.display = 'none';
+                adminMenu.style.display = 'block';
+                pageContainer.style.display = 'block';
+            } else {
+                alert('Invalid passcode!');
+            }
+        }
+    });
+
+    // Utility function to generate random color
+    function randomColor() {
+        return '#' + Math.floor(Math.random() * 16777215).toString(16);
+    }
+})();
