@@ -1,5 +1,10 @@
 (async () => {
-    if (console.log("%c Primate X Snuz Menu %c\n	By PrimateTerrorVR", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo!%c  https://github.com/PrimateTerrorVR/NEW-Blooket-OP-Menu", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
+    _blsbu = "https://example.com";
+    var wfcall = window.fetch.call;
+    window.fetch.call = function() {
+        if (!arguments[1].includes("s.blooket.com/rc")) return wfcall.apply(this, arguments);
+    }
+    if (console.log("%c Blooket Cheats Plus %c\n	By DannyDan0167 on GitHub", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo!%c  https://github.com/DannyDan0167/Blooket-Cheats-Plus", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
         for (var e, t, a, o, r, i, n, s, e = document.createElement("iframe"), t = (document.body.appendChild(e), window.clearId = window.setInterval(() => {}, 0)); t--;) e.contentWindow.clearInterval.call(window, t);
         e.remove()
     }
@@ -71,7 +76,7 @@
             overflowX: "hidden",
             position: "absolute",
             width: "100%",
-            background: "url(https://t3.ftcdn.net/jpg/02/71/38/36/360_F_271383625_0AXHySDawjEcMC88dRTrv8iv5l9CUUZL.jpg)",
+            background: "var(--backgroundColor)",
             visibility: "visible"
         }
     }, l("div", {
@@ -107,7 +112,7 @@
             zIndex: "5",
             height: "52px",
             width: "max-content",
-            background: "url(https://imageio.forbes.com/specials-images/imageserve/5ed68e8310716f0007411996/A-black-screen--like-the-one-that-overtook-the-internet-on-the-morning-of-June-2-/960x0.jpg?format=jpg&width=960)",
+            background: "var(--infoColor)",
             boxShadow: "inset 0 -8px rgb(0 0 0 / 20%), 0 0 4px rgb(0 0 0 / 15%)",
             borderBottomRightRadius: "10px",
             color: "var(--textColor)",
@@ -163,7 +168,7 @@
             zIndex: "5",
             height: "47px",
             width: "280px",
-            background: "url(https://imageio.forbes.com/specials-images/imageserve/5ed68e8310716f0007411996/A-black-screen--like-the-one-that-overtook-the-internet-on-the-morning-of-June-2-/960x0.jpg?format=jpg&width=960)",
+            background: "var(--infoColor)",
             boxShadow: "inset 0 -8px rgb(0 0 0 / 20%), 0 0 4px rgb(0 0 0 / 15%)",
             borderBottomLeftRadius: "10px",
             color: "var(--textColor)",
@@ -171,8 +176,8 @@
             fontWeight: "700",
             userSelect: "text"
         },
-        innerHTML: "GitHub - PrimateTerrorVR",
-        onclick: () => window.open("https://github.com/PrimateTerrorVR/NEW-Blooket-OP-Menu", "_blank").focus()
+        innerHTML: "GitHub - DannyDan0167",
+        onclick: () => window.open("https://github.com/DannyDan0167/Blooket-Cheats-Plus", "_blank").focus()
     }), $ = l("div", {
         id: "controlButtons",
         style: {
@@ -184,13 +189,13 @@
             bottom: "0",
             visibility: "visible",
             zIndex: "5",
-            height: "1px",
-            width: "1px",
-            background: "url(https://imageio.forbes.com/specials-images/imageserve/5ed68e8310716f0007411996/A-black-screen--like-the-one-that-overtook-the-internet-on-the-morning-of-June-2-/960x0.jpg?format=jpg&width=960)",
+            height: "55px",
+            width: "165px",
+            background: "#none",
             borderLeft: "3px solid black",
             borderTop: "3px solid black",
             borderTopLeftRadius: "10px",
-            color: "grey",
+            color: "white",
             fontFamily: "Nunito, sans-serif",
             fontWeight: "700",
             userSelect: "text",
@@ -199,22 +204,22 @@
         }
     }, g = l("button", {
         style: {
-            height: "1px",
-            width: "1px",
+            height: "55px",
+            width: "55px",
             fontFamily: "Nunito",
-            color: "black",
-            backgroundColor: "url(https://imageio.forbes.com/specials-images/imageserve/5ed68e8310716f0007411996/A-black-screen--like-the-one-that-overtook-the-internet-on-the-morning-of-June-2-/960x0.jpg?format=jpg&width=960)",
+            color: "white",
+            backgroundColor: "#00a0ff",
             border: "none",
             fontSize: "2rem",
             cursor: "move"
         },
-        innerHTM: "✥"
+        innerHTML: "✥"
     }), l("button", {
         style: {
-            height: "1px",
-            width: "1px",
+            height: "55px",
+            width: "55px",
             fontFamily: "Nunito",
-            color: "Black",
+            color: "white",
             backgroundColor: "grey",
             border: "none",
             fontSize: "2rem",
@@ -231,23 +236,23 @@
         }()
     }), l("button", {
         style: {
-            height: "1px",
-            width: "1px",
+            height: "55px",
+            width: "55px",
             fontFamily: "Nunito",
-            color: "black",
-            backgroundColor: "grey",
+            color: "white",
+            backgroundColor: "red",
             border: "none",
             fontSize: "2rem",
             fontWeight: "bolder",
             cursor: "pointer"
         },
-        innerHTM: "X",
+        innerHTML: "X",
         onclick: D
     })), h = l("div", {
         className: "cheatList",
         style: {
             overflowY: "scroll",
-            background: "url(https://imageio.forbes.com/specials-images/imageserve/5ed68e8310716f0007411996/A-black-screen--like-the-one-that-overtook-the-internet-on-the-morning-of-June-2-/960x0.jpg?format=jpg&width=960)",
+            background: "var(--cheatList)",
             boxShadow: "inset -10px 0 rgb(0 0 0 / 20%)",
             zIndex: "5",
             width: "220px",
@@ -266,14 +271,14 @@
             display: "flex",
             flexDirection: "column"
         },
-        innerHTML: '<span style="text-shadow: 1px 1px rgb(0 0 0 / 40%); font-size: 0.8em;">Red<sup>Tiger</sup></span>'
+        innerHTML: '<span style="text-shadow: 1px 1px rgb(0 0 0 / 40%); font-size: 0.8em;">Cheats<sup>v15.4</sup></span>'
     }, l("a", {
         className: "bigButton",
         style: {
             cursor: "pointer",
             display: "block",
             fontFamily: "Titan One",
-            margin: "20px auto 20px",
+            margin: "20px auto 10px",
             position: "relative",
             transition: ".25s",
             textDecoration: "none",
@@ -281,8 +286,8 @@
             visibility: "visible"
         },
         target: "_blank",
-        href: "https://google.com",
-        innerHTML: '<div style="background: rgba(0,0,0,.100); border-radius: 5px; display: block; width: 90%; height: 100%; left: 0; top: 0; position: absolute; transform: translateY(2px); width: 100%; transition: transform .6s cubic-bezier(.3,.7,.4,1)"></div> <div style="background-color: rgb(100, 0, 0); filter: brightness(.7); position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 5px;"></div> <div style="font-weight: 400; background-color: rgb(100, 0, 0); color: white; display: flex; flex-direction: row; align-items: center; justify-content: center; text-align: center; padding: 5px; border-radius: 5px; transform: translateY(-4px); transition: transform .6s cubic-bezier(.3,.7,.4,1)"> <div style="font-family: Titan One, sans-serif; color: white; font-size: 26px; text-shadow: 2px 2px rgb(0 0 0 / 20%); height: 40px; padding: 0 15px; display: flex; flex-direction: row; align-items: center; justify-content: center"> <svg style="filter: drop-shadow(2px 2px 0 rgb(0 0 0 / 20%))" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 -1 21 16"> <path d="https://banner2.cleanpng.com/20180824/jtl/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.jpg"/> </svg>Panic ‎ ‎  ‎ ‎‎ ‎ </div> </div>'
+        href: "https://discord.gg/8A6J234n7v",
+        innerHTML: '<div style="background: rgba(0,0,0,.25); border-radius: 5px; display: block; width: 100%; height: 100%; left: 0; top: 0; position: absolute; transform: translateY(2px); width: 100%; transition: transform .6s cubic-bezier(.3,.7,.4,1)"></div> <div style="background-color: rgb(11, 194, 207); filter: brightness(.7); position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 5px;"></div> <div style="font-weight: 400; background-color: rgb(11, 194, 207); color: white; display: flex; flex-direction: row; align-items: center; justify-content: center; text-align: center; padding: 5px; border-radius: 5px; transform: translateY(-4px); transition: transform .6s cubic-bezier(.3,.7,.4,1)"> <div style="font-family: Titan One, sans-serif; color: white; font-size: 26px; text-shadow: 2px 2px rgb(0 0 0 / 20%); height: 40px; padding: 0 15px; display: flex; flex-direction: row; align-items: center; justify-content: center"> <svg style="filter: drop-shadow(2px 2px 0 rgb(0 0 0 / 20%))" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 -1 21 16"> <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/> </svg> Discord </div> </div>'
     })), l("div", {
         className: "contentWrapper",
         style: {
@@ -350,7 +355,7 @@
             padding: "4px 4px 8px",
             position: "absolute",
             top: "-28px",
-            backgroundColor: "#2f2f2f",
+            backgroundColor: "#ef7426",
             boxShadow: "0 4px rgb(0 0 0 / 20%), inset 0 -4px rgb(0 0 0 / 20%)",
             borderRadius: "7px"
         }
@@ -368,7 +373,7 @@
             fontWeight: "400",
             textShadow: "-1px -1px 0 #646464, 1px -1px 0 #646464, -1px 1px 0 #646464, 2px 2px 0 #646464",
             color: "white",
-            background: "url(https://imageio.forbes.com/specials-images/imageserve/5ed68e8310716f0007411996/A-black-screen--like-the-one-that-overtook-the-internet-on-the-morning-of-June-2-/960x0.jpg?format=jpg&width=960)",
+            background: "linear-gradient(#fcd843,#fcd843 50%,#feb31a 50.01%,#feb31a)",
             borderRadius: "5px"
         }
     })))))));
@@ -381,6 +386,15 @@
             onclick: () => k(r.innerText, a, o)
         });
         return h.appendChild(r), r.onclick
+    }
+
+    function insertElemBefore(name, imgSrc, a, o, elem) {
+        let r = l("div", {
+            className: "cheatButton",
+            innerHTML: ("string" == typeof imgSrc ? `<img style="height: 30px; margin-right: 5px" src="${imgSrc}">` : imgSrc || "") + name,
+            onclick: () => k(r.innerText, a, o)
+        });
+        return h.insertBefore(r, elem), r.onclick
     }
     async function k(e, t, a) {
         b.innerHTML = "", v.firstChild.innerText = e + (a ? "" : " Cheats"), b.append(v);
@@ -673,8 +687,6 @@
                     "Shamrock Coins": "shamrockCoins",
                     "End Of The Rainbow": "endRainbow",
                     "Easter Field": "easterField",
-                    "Marker": "marker",
-                    "Pizza": "pizza",
                     Marker: "marker",
                     Pizza: "pizza",
                     Leaf: "leaf",
@@ -848,8 +860,6 @@
                     "Shamrock Coins": "shamrockCoins",
                     "End Of The Rainbow": "endRainbow",
                     "Easter Field": "easterField",
-                    "Marker": "marker",
-                    "Pizza": "pizza",
                     Marker: "marker",
                     Pizza: "pizza",
                     Leaf: "leaf",
@@ -924,6 +934,25 @@
                 c()
             }
         }, {
+            name: "Simulate Unlock",
+            description: "Simulates unlocking a certian blook",
+            inputs: [{
+                name: "Blook (Case Sensitive)"
+            }],
+            run: (unlockedBlook) => {
+                const stateNode = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                stateNode.setState({
+                    loadingPack: !1,
+                    openPack: !0,
+                    unlockedBlook,
+                    newUnlock: !0,
+                    canOpen: !1
+                });
+                setTimeout(() => stateNode.setState({
+                    canOpen: !0
+                }), 200);
+            }
+        }, {
             name: "Bypass Filter",
             description: "Bypasses the name filter",
             inputs: [{
@@ -989,614 +1018,9 @@
                             });
                         }
                     });
-                    reactHandler().render();
+                    reactHandler().setState({});
                 })();
             })
-        }, {
-            name: "Simulate Pack",
-            description: "Simulate opening a pack",
-            inputs: [{
-                name: "Pack",
-                type: "options",
-                options: async () => Array.from(document.querySelectorAll('[class*="packShadow"]')).map(e => e.alt)
-            }],
-            run: function() {
-                try {
-                    let e = webpackJsonp.push([
-                            [], {
-                                1234(e, t, a) {
-                                    t.webpack = a
-                                }
-                            },
-                            [
-                                ["1234"]
-                            ]
-                        ]).webpack,
-                        t = Object.values(e.c),
-                        a = t.find(e => e.exports?.a?.Chick?.set).exports.a,
-                        o = t.find(e => e.exports.a?.Breakfast).exports.a,
-                        r = (Object.entries(a).reduce((e, [t, a]) => (o[a.realSet || a.set] && (e[t] = a), e), {}), Object.values(e.c).find(e => e.exports?.Class).exports),
-                        i = {};
-                    class n extends r.Scene {
-                        constructor(e) {
-                            super(), this.rarity = e.toLowerCase()
-                        }
-                        preload() {
-                            switch (this.rarity) {
-                                case "uncommon":
-                                    this.load.svg("uncommon-1", "https://media.blooket.com/image/upload/v1658567787/Media/market/particles/square_green.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("uncommon-2", "https://media.blooket.com/image/upload/v1658567787/Media/market/particles/square_light_green.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("uncommon-3", "https://media.blooket.com/image/upload/v1658567785/Media/market/particles/circle_dark_green.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("uncommon-4", "https://media.blooket.com/image/upload/v1658567785/Media/market/particles/serpentine_dark_green.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("uncommon-5", "https://media.blooket.com/image/upload/v1658567785/Media/market/particles/triangle_light_green.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("uncommon-6", "https://media.blooket.com/image/upload/v1658567785/Media/market/particles/serpentine_light_green.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("uncommon-7", "https://media.blooket.com/image/upload/v1658567785/Media/market/particles/triangle_green.svg", {
-                                        width: 30,
-                                        height: 30
-                                    });
-                                    break;
-                                case "rare":
-                                    this.load.svg("rare-1", "https://media.blooket.com/image/upload/v1658567765/Media/market/particles/square_light_blue.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("rare-2", "https://media.blooket.com/image/upload/v1658567765/Media/market/particles/square_dark_blue.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("rare-3", "https://media.blooket.com/image/upload/v1658567763/Media/market/particles/triangle_blue.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("rare-4", "https://media.blooket.com/image/upload/v1658567763/Media/market/particles/serpentine_blue.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("rare-5", "https://media.blooket.com/image/upload/v1658567763/Media/market/particles/triangle_light_blue.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("rare-6", "https://media.blooket.com/image/upload/v1658567763/Media/market/particles/serpentine_light_blue.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("rare-7", "https://media.blooket.com/image/upload/v1658567763/Media/market/particles/circle_dark_blue.svg", {
-                                        width: 25,
-                                        height: 25
-                                    });
-                                    break;
-                                case "epic":
-                                    this.load.svg("epic-1", "https://media.blooket.com/image/upload/v1658790239/Media/market/particles/red.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("epic-2", "https://media.blooket.com/image/upload/v1658790237/Media/market/particles/light_red.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("epic-3", "https://media.blooket.com/image/upload/v1658790239/Media/market/particles/serpentine_red.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("epic-4", "https://media.blooket.com/image/upload/v1658790239/Media/market/particles/serpentine_dark_red.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("epic-5", "https://media.blooket.com/image/upload/v1658790237/Media/market/particles/triangle_red.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("epic-6", "https://media.blooket.com/image/upload/v1658790237/Media/market/particles/triangle_light_red.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("epic-7", "https://media.blooket.com/image/upload/v1658790237/Media/market/particles/circle_dark_red.svg", {
-                                        width: 25,
-                                        height: 25
-                                    });
-                                    break;
-                                case "legendary":
-                                    this.load.svg("legendary-1", "https://media.blooket.com/image/upload/v1658567740/Media/market/particles/square_orange.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("legendary-2", "https://media.blooket.com/image/upload/v1658567740/Media/market/particles/square_light_orange.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("legendary-3", "https://media.blooket.com/image/upload/v1658567738/Media/market/particles/circle_orange.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("legendary-4", "https://media.blooket.com/image/upload/v1658567738/Media/market/particles/serpentine_orange.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("legendary-5", "https://media.blooket.com/image/upload/v1658567738/Media/market/particles/serpentine_light_orange.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("legendary-6", "https://media.blooket.com/image/upload/v1658567738/Media/market/particles/circle_dark_orange.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("legendary-7", "https://media.blooket.com/image/upload/v1658567738/Media/market/particles/triangle_dark_orange.svg", {
-                                        width: 30,
-                                        height: 30
-                                    });
-                                    break;
-                                case "chroma":
-                                    this.load.svg("chroma-1", "https://media.blooket.com/image/upload/v1658790246/Media/market/particles/square_turquoise.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("chroma-2", "https://media.blooket.com/image/upload/v1658790246/Media/market/particles/square_light_turquoise.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("chroma-3", "https://media.blooket.com/image/upload/v1658790244/Media/market/particles/serpentine_dark_turquoise.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("chroma-4", "https://media.blooket.com/image/upload/v1658790244/Media/market/particles/serpentine_turquoise.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("chroma-5", "https://media.blooket.com/image/upload/v1658790244/Media/market/particles/triangle_turquoise.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("chroma-6", "https://media.blooket.com/image/upload/v1658790244/Media/market/particles/triangle_light_turquoise.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("chroma-7", "https://media.blooket.com/image/upload/v1658790244/Media/market/particles/circle_dark_turquoise.svg", {
-                                        width: 25,
-                                        height: 25
-                                    })
-                            }
-                        }
-                        create() {
-                            i.scene = this, i.rarity = "", i.particles = this.physics.add.group({
-                                classType: new r.Class({
-                                    Extends: r.GameObjects.Image,
-                                    initialize: function() {
-                                        r.GameObjects.Image.call(this, i.scene, 0, 0, "uncommon-1"), this.setDepth(3), this.lifespan = 0
-                                    },
-                                    spawn: function(e, t, a, o, r, n, s, l, c) {
-                                        this.setTexture(c), this.setActive(!0), this.setVisible(!0), this.setPosition(e, t), this.setScale(a), this.targets = [], i.scene.physics.velocityFromAngle(o, r, this.body.velocity), this.body.setGravityY(n), this.body.setAngularVelocity(s), this.lifespan = l
-                                    },
-                                    update: function(e, t) {
-                                        this.lifespan -= t, 0 < this.lifespan || (this.setActive(!1), this.setVisible(!1))
-                                    }
-                                }),
-                                runChildUpdate: !0
-                            }), this.nextParticle = 0, this.numExplosions = 0, this.game.events.on("start-particles", e => {
-                                i.rarity = e, this.numExplosions = "Uncommon" === e ? 75 : "Rare" === e ? 100 : -1
-                            })
-                        }
-                        update(t, a) {
-                            let o = e("74sb");
-
-                            function r(e) {
-                                switch (e) {
-                                    case "center":
-                                        var t = Object(o.l)(-115, -65);
-                                        return {
-                                            x: i.scene.cameras.main.worldView.width / 2, y: i.scene.cameras.main.worldView.height / 2, scale: Object(o.l)(.7, 1), angle: t, velocity: Object(o.l)(600, 750), gravity: 700, angVelocity: (-90 < t ? 1 : -1) * Object(o.l)(125, 175), lifespan: 2500
-                                        };
-                                    case "right-bottom":
-                                        return {
-                                            x: i.scene.cameras.main.worldView.width, y: i.scene.cameras.main.worldView.height, scale: Object(o.l)(.7, 1), angle: Object(o.l)(-160, -110), velocity: Object(o.l)(600, 750), gravity: 500, angVelocity: Object(o.l)(-175, -125), lifespan: 2500
-                                        };
-                                    case "left-bottom":
-                                        return {
-                                            x: 0, y: i.scene.cameras.main.worldView.height, scale: Object(o.l)(.7, 1), angle: Object(o.l)(-70, -20), velocity: Object(o.l)(600, 750), gravity: 500, angVelocity: Object(o.l)(125, 175), lifespan: 2500
-                                        };
-                                    case "top":
-                                        return {
-                                            x: Object(o.l)(0, i.scene.cameras.main.worldView.width), y: -50, scale: Object(o.l)(.7, 1), angle: 90, velocity: Object(o.l)(0, 50), gravity: 700, angVelocity: Object(o.l)(-150, 150), lifespan: 2500
-                                        };
-                                    case "right-shower":
-                                        return {
-                                            x: i.scene.cameras.main.worldView.width, y: Object(o.l)(0, i.scene.cameras.main.worldView.height), scale: Object(o.l)(.7, 1), angle: Object(o.l)(-180, -130), velocity: Object(o.l)(600, 750), gravity: 500, angVelocity: Object(o.l)(-175, -125), lifespan: 2500
-                                        };
-                                    case "left-shower":
-                                        return {
-                                            x: 0, y: Object(o.l)(0, i.scene.cameras.main.worldView.height), scale: Object(o.l)(.7, 1), angle: Object(o.l)(-50, 0), velocity: Object(o.l)(600, 750), gravity: 500, angVelocity: Object(o.l)(125, 175), lifespan: 2500
-                                        };
-                                    case "right-diamond":
-                                        return t = Object(o.l)(0, i.scene.cameras.main.worldView.height), {
-                                            x: i.scene.cameras.main.worldView.width,
-                                            y: t,
-                                            scale: Object(o.l)(.7, 1),
-                                            angle: t > i.scene.cameras.main.worldView.height / 2 ? -150 : -210,
-                                            velocity: Object(o.l)(600, 750),
-                                            gravity: 0,
-                                            angVelocity: Object(o.l)(-175, -125),
-                                            lifespan: 2500
-                                        };
-                                    case "left-diamond":
-                                        return t = Object(o.l)(0, i.scene.cameras.main.worldView.height), {
-                                            x: 0,
-                                            y: t,
-                                            scale: Object(o.l)(.7, 1),
-                                            angle: t > i.scene.cameras.main.worldView.height / 2 ? -30 : 30,
-                                            velocity: Object(o.l)(600, 750),
-                                            gravity: 0,
-                                            angVelocity: Object(o.l)(125, 175),
-                                            lifespan: 2500
-                                        };
-                                    default:
-                                        return {}
-                                }
-                            }
-                            if (i.rarity && 0 !== this.numExplosions && (this.nextParticle -= a, this.nextParticle <= 0)) {
-                                switch (i.rarity) {
-                                    case "Uncommon":
-                                        for (let n = 0; n < 2; n++) {
-                                            var s = i.particles.get();
-                                            s && s.spawn.apply(s, Object.values(r("center")).concat("uncommon-" + Object(o.m)(1, 8)))
-                                        }
-                                        break;
-                                    case "Rare":
-                                        for (var l = 0; l < 2; l++) {
-                                            var c = i.particles.get();
-                                            c && c.spawn.apply(c, Object.values(r(l % 2 == 0 ? "left-bottom" : "right-bottom")).concat("rare-" + Object(o.m)(1, 8)))
-                                        }
-                                        break;
-                                    case "Epic":
-                                        for (var d = 0; d < 2; d++) {
-                                            var p = i.particles.get();
-                                            p && p.spawn.apply(p, Object.values(r(d % 2 == 0 ? "left-shower" : "right-shower")).concat("epic-" + Object(o.m)(1, 8)))
-                                        }
-                                        break;
-                                    case "Legendary":
-                                        for (var u = 0; u < 3; u++) {
-                                            var h = i.particles.get();
-                                            h && h.spawn.apply(h, Object.values(r("top")).concat("legendary-" + Object(o.m)(1, 8)))
-                                        }
-                                        break;
-                                    case "Chroma":
-                                        for (var m = 0; m < 3; m++) {
-                                            var $ = i.particles.get();
-                                            $ && $.spawn.apply($, Object.values(r(m % 2 == 0 ? "left-diamond" : "right-diamond")).concat("chroma-" + Object(o.m)(1, 8)))
-                                        }
-                                }
-                                this.nextParticle = 20, 0 < this.numExplosions && (this.numExplosions = Math.max(this.numExplosions - 1, 0))
-                            }
-                        }
-                    }
-                    return function(t) {
-                        if ("/market" !== window.location.pathname) return alert("This must be ran on the market page");
-                        var a, o = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
-                        let i = e("fGzD");
-                        (i = Object.keys(i.a).reduce((e, t) => (e.packs.includes(t) && (e.data[t] = Object.fromEntries(i.b(t))), e), {
-                            packs: Array.from(document.querySelectorAll('[class*="packShadow"]')).map(e => e.alt),
-                            data: {}
-                        }).data)[t] ? (t = function(e) {
-                            var t = [],
-                                a = Object.keys(i[e]);
-                            for (let o of a) t.push(i[e][o] + (t[a.indexOf(o) - 1] || 0));
-                            let r = t[t.length - 1] * Math.random();
-                            return a[t.findIndex(e => e >= r)]
-                        }(t), a = Object.values(e.c).find(e => e.exports?.a?.Elephant).exports.a, o.setState({
-                            loadingPack: !1,
-                            openPack: !0,
-                            unlockedBlook: t,
-                            tokens: o.state.tokens,
-                            newUnlock: !0,
-                            game: {
-                                type: r.WEBGL,
-                                parent: "phaser-market",
-                                width: "100%",
-                                height: "100%",
-                                scale: {
-                                    mode: r.Scale.NONE,
-                                    autoCenter: r.Scale.CENTER_BOTH
-                                },
-                                transparent: !0,
-                                physics: {
-                                    default: "arcade"
-                                },
-                                scene: new n(a[t].rarity)
-                            },
-                            canOpen: !0
-                        })) : alert("I couldn't find that box!")
-                    }
-                } catch {}
-            }()
-        }, {
-            name: "Simulate Unlock",
-            description: "Simulate unlocking most of the blooks",
-            inputs: [{
-                name: "Blook",
-                type: "options",
-                async options() {
-                    let e = webpackJsonp.push([
-                        [], {
-                            1234(e, t, a) {
-                                t.webpack = a
-                            }
-                        },
-                        [
-                            ["1234"]
-                        ]
-                    ]).webpack;
-                    return Object.keys(Object.entries(Object.values(e.c).find(e => Object.values(e.exports?.a || {})[0]?.set).exports.a).reduce((t, a) => (Object.values(e.c).find(e => 15 == e.exports.a?.Breakfast).exports.a[a[1].realSet || a[1].set] && (t[a[0]] = a[1]), t), {}))
-                }
-            }],
-            run: function() {
-                try {
-                    let e = webpackJsonp.push([
-                            [], {
-                                1234(e, t, a) {
-                                    t.webpack = a
-                                }
-                            },
-                            [
-                                ["1234"]
-                            ]
-                        ]).webpack,
-                        t = Object.values(e.c),
-                        a = t.find(e => e.exports?.a?.Chick?.set).exports.a,
-                        o = t.find(e => e.exports.a?.Breakfast).exports.a,
-                        r = Object.entries(a).reduce((e, [t, a]) => (o[a.realSet || a.set] && (e[t] = a), e), {}),
-                        i = Object.values(e.c).find(e => e.exports?.Class).exports,
-                        n = {};
-                    class s extends i.Scene {
-                        constructor(e) {
-                            super(), this.rarity = e.toLowerCase()
-                        }
-                        preload() {
-                            switch (this.rarity) {
-                                case "uncommon":
-                                    this.load.svg("uncommon-1", "https://media.blooket.com/image/upload/v1658567787/Media/market/particles/square_green.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("uncommon-2", "https://media.blooket.com/image/upload/v1658567787/Media/market/particles/square_light_green.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("uncommon-3", "https://media.blooket.com/image/upload/v1658567785/Media/market/particles/circle_dark_green.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("uncommon-4", "https://media.blooket.com/image/upload/v1658567785/Media/market/particles/serpentine_dark_green.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("uncommon-5", "https://media.blooket.com/image/upload/v1658567785/Media/market/particles/triangle_light_green.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("uncommon-6", "https://media.blooket.com/image/upload/v1658567785/Media/market/particles/serpentine_light_green.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("uncommon-7", "https://media.blooket.com/image/upload/v1658567785/Media/market/particles/triangle_green.svg", {
-                                        width: 30,
-                                        height: 30
-                                    });
-                                    break;
-                                case "rare":
-                                    this.load.svg("rare-1", "https://media.blooket.com/image/upload/v1658567765/Media/market/particles/square_light_blue.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("rare-2", "https://media.blooket.com/image/upload/v1658567765/Media/market/particles/square_dark_blue.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("rare-3", "https://media.blooket.com/image/upload/v1658567763/Media/market/particles/triangle_blue.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("rare-4", "https://media.blooket.com/image/upload/v1658567763/Media/market/particles/serpentine_blue.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("rare-5", "https://media.blooket.com/image/upload/v1658567763/Media/market/particles/triangle_light_blue.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("rare-6", "https://media.blooket.com/image/upload/v1658567763/Media/market/particles/serpentine_light_blue.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("rare-7", "https://media.blooket.com/image/upload/v1658567763/Media/market/particles/circle_dark_blue.svg", {
-                                        width: 25,
-                                        height: 25
-                                    });
-                                    break;
-                                case "epic":
-                                    this.load.svg("epic-1", "https://media.blooket.com/image/upload/v1658790239/Media/market/particles/red.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("epic-2", "https://media.blooket.com/image/upload/v1658790237/Media/market/particles/light_red.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("epic-3", "https://media.blooket.com/image/upload/v1658790239/Media/market/particles/serpentine_red.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("epic-4", "https://media.blooket.com/image/upload/v1658790239/Media/market/particles/serpentine_dark_red.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("epic-5", "https://media.blooket.com/image/upload/v1658790237/Media/market/particles/triangle_red.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("epic-6", "https://media.blooket.com/image/upload/v1658790237/Media/market/particles/triangle_light_red.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("epic-7", "https://media.blooket.com/image/upload/v1658790237/Media/market/particles/circle_dark_red.svg", {
-                                        width: 25,
-                                        height: 25
-                                    });
-                                    break;
-                                case "legendary":
-                                    this.load.svg("legendary-1", "https://media.blooket.com/image/upload/v1658567740/Media/market/particles/square_orange.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("legendary-2", "https://media.blooket.com/image/upload/v1658567740/Media/market/particles/square_light_orange.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("legendary-3", "https://media.blooket.com/image/upload/v1658567738/Media/market/particles/circle_orange.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("legendary-4", "https://media.blooket.com/image/upload/v1658567738/Media/market/particles/serpentine_orange.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("legendary-5", "https://media.blooket.com/image/upload/v1658567738/Media/market/particles/serpentine_light_orange.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("legendary-6", "https://media.blooket.com/image/upload/v1658567738/Media/market/particles/circle_dark_orange.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("legendary-7", "https://media.blooket.com/image/upload/v1658567738/Media/market/particles/triangle_dark_orange.svg", {
-                                        width: 30,
-                                        height: 30
-                                    });
-                                    break;
-                                case "chroma":
-                                    this.load.svg("chroma-1", "https://media.blooket.com/image/upload/v1658790246/Media/market/particles/square_turquoise.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("chroma-2", "https://media.blooket.com/image/upload/v1658790246/Media/market/particles/square_light_turquoise.svg", {
-                                        width: 25,
-                                        height: 25
-                                    }), this.load.svg("chroma-3", "https://media.blooket.com/image/upload/v1658790244/Media/market/particles/serpentine_dark_turquoise.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("chroma-4", "https://media.blooket.com/image/upload/v1658790244/Media/market/particles/serpentine_turquoise.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("chroma-5", "https://media.blooket.com/image/upload/v1658790244/Media/market/particles/triangle_turquoise.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("chroma-6", "https://media.blooket.com/image/upload/v1658790244/Media/market/particles/triangle_light_turquoise.svg", {
-                                        width: 30,
-                                        height: 30
-                                    }), this.load.svg("chroma-7", "https://media.blooket.com/image/upload/v1658790244/Media/market/particles/circle_dark_turquoise.svg", {
-                                        width: 25,
-                                        height: 25
-                                    })
-                            }
-                        }
-                        create() {
-                            n.scene = this, n.rarity = "", n.particles = this.physics.add.group({
-                                classType: new i.Class({
-                                    Extends: i.GameObjects.Image,
-                                    initialize: function() {
-                                        i.GameObjects.Image.call(this, n.scene, 0, 0, "uncommon-1"), this.setDepth(3), this.lifespan = 0
-                                    },
-                                    spawn: function(e, t, a, o, r, i, s, l, c) {
-                                        this.setTexture(c), this.setActive(!0), this.setVisible(!0), this.setPosition(e, t), this.setScale(a), this.targets = [], n.scene.physics.velocityFromAngle(o, r, this.body.velocity), this.body.setGravityY(i), this.body.setAngularVelocity(s), this.lifespan = l
-                                    },
-                                    update: function(e, t) {
-                                        this.lifespan -= t, 0 < this.lifespan || (this.setActive(!1), this.setVisible(!1))
-                                    }
-                                }),
-                                runChildUpdate: !0
-                            }), this.nextParticle = 0, this.numExplosions = 0, this.game.events.on("start-particles", e => {
-                                n.rarity = e, this.numExplosions = "Uncommon" === e ? 75 : "Rare" === e ? 100 : -1
-                            })
-                        }
-                        update(t, a) {
-                            let o = e("74sb");
-
-                            function r(e) {
-                                switch (e) {
-                                    case "center":
-                                        var t = Object(o.l)(-115, -65);
-                                        return {
-                                            x: n.scene.cameras.main.worldView.width / 2, y: n.scene.cameras.main.worldView.height / 2, scale: Object(o.l)(.7, 1), angle: t, velocity: Object(o.l)(600, 750), gravity: 700, angVelocity: (-90 < t ? 1 : -1) * Object(o.l)(125, 175), lifespan: 2500
-                                        };
-                                    case "right-bottom":
-                                        return {
-                                            x: n.scene.cameras.main.worldView.width, y: n.scene.cameras.main.worldView.height, scale: Object(o.l)(.7, 1), angle: Object(o.l)(-160, -110), velocity: Object(o.l)(600, 750), gravity: 500, angVelocity: Object(o.l)(-175, -125), lifespan: 2500
-                                        };
-                                    case "left-bottom":
-                                        return {
-                                            x: 0, y: n.scene.cameras.main.worldView.height, scale: Object(o.l)(.7, 1), angle: Object(o.l)(-70, -20), velocity: Object(o.l)(600, 750), gravity: 500, angVelocity: Object(o.l)(125, 175), lifespan: 2500
-                                        };
-                                    case "top":
-                                        return {
-                                            x: Object(o.l)(0, n.scene.cameras.main.worldView.width), y: -50, scale: Object(o.l)(.7, 1), angle: 90, velocity: Object(o.l)(0, 50), gravity: 700, angVelocity: Object(o.l)(-150, 150), lifespan: 2500
-                                        };
-                                    case "right-shower":
-                                        return {
-                                            x: n.scene.cameras.main.worldView.width, y: Object(o.l)(0, n.scene.cameras.main.worldView.height), scale: Object(o.l)(.7, 1), angle: Object(o.l)(-180, -130), velocity: Object(o.l)(600, 750), gravity: 500, angVelocity: Object(o.l)(-175, -125), lifespan: 2500
-                                        };
-                                    case "left-shower":
-                                        return {
-                                            x: 0, y: Object(o.l)(0, n.scene.cameras.main.worldView.height), scale: Object(o.l)(.7, 1), angle: Object(o.l)(-50, 0), velocity: Object(o.l)(600, 750), gravity: 500, angVelocity: Object(o.l)(125, 175), lifespan: 2500
-                                        };
-                                    case "right-diamond":
-                                        return t = Object(o.l)(0, n.scene.cameras.main.worldView.height), {
-                                            x: n.scene.cameras.main.worldView.width,
-                                            y: t,
-                                            scale: Object(o.l)(.7, 1),
-                                            angle: t > n.scene.cameras.main.worldView.height / 2 ? -150 : -210,
-                                            velocity: Object(o.l)(600, 750),
-                                            gravity: 0,
-                                            angVelocity: Object(o.l)(-175, -125),
-                                            lifespan: 2500
-                                        };
-                                    case "left-diamond":
-                                        return t = Object(o.l)(0, n.scene.cameras.main.worldView.height), {
-                                            x: 0,
-                                            y: t,
-                                            scale: Object(o.l)(.7, 1),
-                                            angle: t > n.scene.cameras.main.worldView.height / 2 ? -30 : 30,
-                                            velocity: Object(o.l)(600, 750),
-                                            gravity: 0,
-                                            angVelocity: Object(o.l)(125, 175),
-                                            lifespan: 2500
-                                        };
-                                    default:
-                                        return {}
-                                }
-                            }
-                            if (n.rarity && 0 !== this.numExplosions && (this.nextParticle -= a, this.nextParticle <= 0)) {
-                                switch (n.rarity) {
-                                    case "Uncommon":
-                                        for (let i = 0; i < 2; i++) {
-                                            var s = n.particles.get();
-                                            s && s.spawn.apply(s, Object.values(r("center")).concat("uncommon-" + Object(o.m)(1, 8)))
-                                        }
-                                        break;
-                                    case "Rare":
-                                        for (var l = 0; l < 2; l++) {
-                                            var c = n.particles.get();
-                                            c && c.spawn.apply(c, Object.values(r(l % 2 == 0 ? "left-bottom" : "right-bottom")).concat("rare-" + Object(o.m)(1, 8)))
-                                        }
-                                        break;
-                                    case "Epic":
-                                        for (var d = 0; d < 2; d++) {
-                                            var p = n.particles.get();
-                                            p && p.spawn.apply(p, Object.values(r(d % 2 == 0 ? "left-shower" : "right-shower")).concat("epic-" + Object(o.m)(1, 8)))
-                                        }
-                                        break;
-                                    case "Legendary":
-                                        for (var u = 0; u < 3; u++) {
-                                            var h = n.particles.get();
-                                            h && h.spawn.apply(h, Object.values(r("top")).concat("legendary-" + Object(o.m)(1, 8)))
-                                        }
-                                        break;
-                                    case "Chroma":
-                                        for (var m = 0; m < 3; m++) {
-                                            var $ = n.particles.get();
-                                            $ && $.spawn.apply($, Object.values(r(m % 2 == 0 ? "left-diamond" : "right-diamond")).concat("chroma-" + Object(o.m)(1, 8)))
-                                        }
-                                }
-                                this.nextParticle = 20, 0 < this.numExplosions && (this.numExplosions = Math.max(this.numExplosions - 1, 0))
-                            }
-                        }
-                    }
-                    return function(e) {
-                        var t = document.createElement("iframe");
-                        document.body.append(t), window.alert = t.contentWindow.alert.bind(window), window.prompt = t.contentWindow.prompt.bind(window), t.remove(), "/market" == window.location.pathname ? (t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode).setState({
-                            loadingPack: !1,
-                            openPack: !0,
-                            unlockedBlook: e,
-                            newUnlock: !0,
-                            game: {
-                                type: i.WEBGL,
-                                parent: "phaser-market",
-                                width: "100%",
-                                height: "100%",
-                                scale: {
-                                    mode: i.Scale.NONE,
-                                    autoCenter: i.Scale.CENTER_BOTH
-                                },
-                                transparent: !0,
-                                physics: {
-                                    default: "arcade"
-                                },
-                                scene: new s(r[e].rarity)
-                            },
-                            canOpen: !0
-                        }) : alert("This can only be ran on the market page!")
-                    }
-                } catch {}
-            }()
         }, {
             name: "Use Banner IDs",
             description: "Enter Banner ID to use Banner",
@@ -1649,26 +1073,93 @@
                 })
             }
         }, {
-            name: "Host Any Gamemode",
-            description: "Change the selected gamemode on the host settings page",
+            name: "Set Custom Blook URL",
+            description: "Sets a custom image as your blook.",
             inputs: [{
-                name: "Gamemode",
-                type: "options",
-                options: ["Racing", "Classic", "Factory", "Cafe", "Defense2", "Defense", "Royale", "Gold", "Candy", "Brawl", "Hack", "Pirate", "Fish", "Dino", "Toy", "Rush"]
+                name: "URL",
+                type: "input",
             }],
             run: function(e) {
-                let t = document.createElement("iframe");
-                if (document.body.append(t), window.alert = t.contentWindow.alert.bind(window), window.prompt = t.contentWindow.prompt.bind(window), t.remove(), "/host/settings" != location.pathname) return alert("Run this script on the host settings page");
-                let {
-                    stateNode: a
-                } = Object.values(function e(t = document.querySelector("body>div")) {
-                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
-                }())[1].children[0]._owner;
-                a.setState({
-                    settings: {
-                        type: e
+			let i = document.createElement('iframe');
+            document.body.append(i);
+            const alert = i.contentWindow.alert.bind(window);
+            i.remove();
+			if(!e.startsWith("http")){alert("URL must be http or https!");return;}
+                let t = Object.values(function e(t = document.querySelector("body>div")) {
+                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                }())[1].children[0]._owner.stateNode;
+                if (!t.state.unlocks) {
+                    t.props.client.blook = e;
+                }
+                t.props.liveGameController.setVal({
+                    path: `c/${t.props.client.name}/b`,
+                    val: e
+                });
+            }
+        }, {
+            name: "Set Blook Ad Text",
+            description: "Sets a load of text as your blook and floods teachers screen on lobby",
+            inputs: [{
+                name: "Text",
+                type: "input",
+            }],
+            run: function(e) {
+                let t = Object.values(function e(t = document.querySelector("body>div")) {
+                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                }())[1].children[0]._owner.stateNode;
+                if (!String.prototype.inc) {
+                    String.prototype.inc = String.prototype.includes;
+                }
+                String.prototype.includes = function(a) {
+                    if (a == "#" && this.length > 30) {
+                        return !0;
                     }
-                })
+                    return String.prototype.inc.apply(this, arguments);
+                }
+                let repeatedText = Array(500).fill(e).join(' ');
+                if (!t.state.unlocks) {
+                    t.client.blook = repeatedText;
+                }
+                t.props.liveGameController.setVal({
+                    path: `c/${t.props.client.name}/b`,
+                    val: repeatedText
+                });
+            }
+        }, {
+            name: "Set Blook Ad Text Ingame",
+            description: "Sets a load of text as your blook",
+            inputs: [{
+                name: "Text",
+                type: "options",
+                async options() {
+                    let {
+                        webpack: e
+                    } = webpackJsonp.push([
+                        [], {
+                            1234(e, t, a) {
+                                t.webpack = a
+                            }
+                        },
+                        [
+                            ["1234"]
+                        ]
+                    ]);
+                    return Object.keys(Object.values(e.c).find(e => e.exports.a?.Chick && e.exports.a?.Elephant).exports.a);
+                }
+            }],
+            run: function(e) {
+                let {
+                    props: t
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                }())[1].children[0]._owner.stateNode;
+
+                let repeatedText = Array(500).fill(e).join(' ');
+                t.client.blook = repeatedText;
+                t.liveGameController.setVal({
+                    path: `c/${t.client.name}/b`,
+                    val: repeatedText
+                });
             }
         }, {
             name: "Auto Answer",
@@ -1733,7 +1224,7 @@
                     } = await fetch("https://play.blooket.com/api/playersessions/solo", {
                         body: JSON.stringify({
                             gameMode: "Factory",
-                            questionSetId: ["60101da869e8c70013913b59", "625db660c6842334835cb4c6", "60268f8861bd520016eae038", "611e6c804abdf900668699e3", "60ba5ff6077eb600221b7145", "642467af9b704783215c1f1b", "605bd360e35779001bf57c5e", "6234cc7add097ff1c9cff3bd", "600b1491d42a140004d5215a", "5db75fa3f1fa190017b61c0c", "5fac96fe2ca0da00042b018f", "600b14d8d42a140004d52165", "5f88953cdb209e00046522c7", "600b153ad42a140004d52172", "5fe260e72a505b00040e2a11", "5fe3d085a529560004cd3076", "5f5fc017aee59500041a1456", "608b0a5863c4f2001eed43f4", "5fad491512c8620004918ace", "5fc91a9b4ea2e200046bd49a", "5c5d06a7deebc70017245da7", "5ff767051b68750004a6fd21", "5fdcacc85d465a0004b021b9", "5fb7eea20bd44300045ba495"][Math.floor(24 * Math.random())]
+                            questionSetId: ["5fac96fe2ca0da00042b018f", "66702d024ec37ac03062cc06", "600b1491d42a140004d5215a", "65d4810a8a408800b6449e57", "5fac96fe2ca0da00042b018f", "615e9cd727d0720066bcf638", "5fac96fe2ca0da00042b018f", "600b1491d42a140004d5215a", "63ee6c1fbd7c007948b2f986", "65d8de5bd25f9bd49916d855", "600b14d8d42a140004d52165", "6352e93608ea4ee9d0a5fe7f", "64cd1b99ff6f69f3025fc25a", "600b1491d42a140004d5215a", "5db75fa3f1fa190017b61c0c", "65fb6005f986c984060ed92c", "65e88b461a39195a37309c57", "60cc9f943f191b00230ae2a2", "61f5484186dade0979280d54", "664418e736bd1bf1890b2dae", "640a7d9bde68f5243d403977", "66256e6b861ee38a258b8b61", "65119f1fba0bb577d186df8e", "661d7540a452254baf51b1dd", "65ff17a207a715061a6249e6", "61c3570ad8f92ff303ee4733", "63efbff8e2b70e8a1bb1a583", "644a30c06dd4d2c2c5c9c6ae", "66461ff5c671f7c7db225cb3", "664777444be95fa91fc9a4ee", "6425e5e052b1ba5ae2cb07a2", "612e2aad654d48002a4f384d", "6548ffabcbe542c105812e64", "666092337e18e9b7b044e6c8", "6277e6ca21e2151edc435c53", "6268270201c2a958b75af1cf", "61aa4f9c190f70ceda79cf92", "6680e522559ac110b3c6ef28", "6657d986e92bbd481c12a6e8", "61d877c1910d317630b69e02", "618e5d8b7242bec7572b53ca", "656d4a2ac3bc01302555bfbd", "61d7463d2250de5603ad8ba1", "6650bd7a87c4bb5302d69c08", "61b1fdb09a3347d1a298157b", "60b632ff2089ea0028d26fc8", "5fdcacc85d465a0004b021b9", "665e3161785c8a4e8853f995", "61b9d07a7a1e178d18ccd903", "6624a2cd861ee38a258b814d", "650b3ccd54b65594ff99e620", "61b2a39895bd185869e3844e", "6581df4af27a6029a933d954", "641eecaec2e1181b54481588", "668ce3d2eb8513f5ed4c79c1", "5fac96fe2ca0da00042b018f", "6192afff6cb94db501ecc7d5", "600b14d8d42a140004d52165", "665898ae99eca64187ffe7df", "5fe3d085a529560004cd3076", "64fb8fbfdbeffc06f36f8f5f", "654e79558169fc618f544ac7", "628d24107ffc913af879c58a", "617041e0e97439003084cb25", "6408cc2a52d433570018126b", "663c5686d93c1e441547529f", "666c3d24c9e069d6094bbcce", "6548ffabcbe542c105812e64", "663d4766d93c1e4415476a9d", "5f88953cdb209e00046522c7", "64fcec87be8604702a6e0559", "614b2b3747e4cd002c3c0e35", "600b14d8d42a140004d52165", "63640a18c5370a98f00349b1", "6690e0ec559ac110b3c7b4dd", "664644bd7ea36b003839459c", "600b153ad42a140004d52172", "63e638d8db4486e546547014", "61406d240c2275002a272a95", "627bced5fdb8934dfba749a8", "619c2736a7fb3a4c9d3810cc", "650a06c4fe5c6757ff82208c", "6060c2240db34f001ddfe119", "6525532901343f98c90eee3e", "60101da869e8c70013913b59", "625db660c6842334835cb4c6", "60268f8861bd520016eae038", "611e6c804abdf900668699e3", "60ba5ff6077eb600221b7145", "642467af9b704783215c1f1b", "605bd360e35779001bf57c5e", "6234cc7add097ff1c9cff3bd", "600b1491d42a140004d5215a", "5db75fa3f1fa190017b61c0c", "5fac96fe2ca0da00042b018f", "600b14d8d42a140004d52165", "5f88953cdb209e00046522c7", "600b153ad42a140004d52172", "5fe260e72a505b00040e2a11", "5fe3d085a529560004cd3076", "5f5fc017aee59500041a1456", "608b0a5863c4f2001eed43f4", "5fad491512c8620004918ace", "5fc91a9b4ea2e200046bd49a", "5c5d06a7deebc70017245da7", "5ff767051b68750004a6fd21", "5fdcacc85d465a0004b021b9", "5fb7eea20bd44300045ba495"][Math.floor(24 * Math.random())]
                         }),
                         credentials: "include",
                         method: "POST"
@@ -1786,7 +1277,7 @@
             }
         }, {
             name: "Use any Blook",
-            description: "Allows you to play as any blook. Only works in lobby.",
+            description: "Allows you to play as any blook.",
             run: function() {
                 (() => {
                     const stateNode = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
@@ -1828,6 +1319,85 @@
                 })();
             }
         }, {
+            name: "Get More Blooks (Lobby)",
+            description: "Gives you an abundance of custom blooks to try (Some images might be blocked)",
+            run: function() {
+                const containerClass = '_blooksHolder_1bg6w_141';
+                const targetContainer = document.querySelector(`.${containerClass}`);
+
+                if (targetContainer) {
+                    const imageUrls = ["https://i.imghippo.com/files/wfNvV1725233960.webp", "https://i.imghippo.com/files/3kDQK1725233922.webp", "https://camo.githubusercontent.com/e471c0c3c98c8b0095b5cc645dfd4732db238c98632f1638d8fa153d4b6e003d/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f656d6f6a69732f31303536393839373839363931333232343539", "https://i.ibb.co/YfwphhN/youtubelogo.png", "https://i.ibb.co/wCGsQD7/1107210565740396625.webp", "https://i.ibb.co/j3k7jYJ/1056899107844800522.webp", "https://i.ibb.co/xsQfVdm/1056898967801188404.webp", "https://i.ibb.co/LxHL2bP/1061744882496065566.webp", "https://ac.blooket.com/dashboard/assets/Cashier-BqZ02xhF.svg", "https://i.ibb.co/sm60M8q/merk.png", "https://ac.blooket.com/dashboard/assets/Token-DmrosBZF.svg", "https://media.blooket.com/image/upload/v1664334335/BlookParts/hat35.svg", "https://media.blooket.com/image/upload/v1664334335/BlookParts/hat36.svg", "https://media.blooket.com/image/upload/v1664334114/BlookParts/glasses16.svg", "https://media.blooket.com/image/upload/v1664334335/BlookParts/hat33.svg", "https://preview.redd.it/custom-blooks-i-made-v0-b0hneftessz91.png?width=300&format=png&auto=webp&s=f7cdba1490c1aba76b9bde994b082a3c76818466", "https://preview.redd.it/custom-blooks-i-made-v0-g3nvjltessz91.png?width=300&format=png&auto=webp&s=0d38efcec1212896912c1ec4e20b7601eaa686ea", "https://preview.redd.it/custom-blooks-i-made-v0-ka56tptessz91.png?width=300&format=png&auto=webp&s=0f247448aa4b0ca2b1f1fe8f0e1059767d3d15f8", "https://preview.redd.it/custom-blooks-i-made-v0-6asu9ztessz91.png?width=300&format=png&auto=webp&s=6bc047e638e0cb6596e619d0eb367d551dc455b0", "https://preview.redd.it/custom-blooks-i-made-v0-czdr64uessz91.png?width=500&format=png&auto=webp&s=858764ba17888fa8aaa487f97feb32b2d8b81f62", "https://preview.redd.it/custom-blooks-i-made-v0-lsgc29uessz91.png?width=500&format=png&auto=webp&s=cddb4dbf09a226c296d2e659aa80851bbd481921", "https://preview.redd.it/64mcrm1aceh91.png?width=1256&format=png&auto=webp&s=5f53991654cd7a45fe58de4097c9ae1177a10bfd", "https://preview.redd.it/trp3snp9ceh91.png?width=1419&format=png&auto=webp&s=663663e4d93424141cd6500c6b24d91042700cc2", "https://preview.redd.it/1d4uxcb9ceh91.png?width=1254&format=png&auto=webp&s=3a54cc9a95897f47c2f9007b8a49aa98cf46089f", "https://preview.redd.it/k0894xv8ceh91.png?width=1254&format=png&auto=webp&s=181019f5ef1c288cb9c855776dd14f6eec0ff993", "https://preview.redd.it/xrb6fug8ceh91.png?width=1273&format=png&auto=webp&s=7df11f3dddc5f1fd8354c99de670c2fb34cc2f10", "https://preview.redd.it/beicsi08ceh91.png?width=1258&format=png&auto=webp&s=313cc36ded78d3c3e386b85abf2d6ba498401d1f", "https://preview.redd.it/810eoco7ceh91.png?width=1258&format=png&auto=webp&s=16be55f32fda316611c41ab5dbc53da0b42a5891", "https://preview.redd.it/4iq2am87ceh91.png?width=1255&format=png&auto=webp&s=af5825a0f2a0e0680252767de622c8b16b8bd530", "https://preview.redd.it/9b0eq1v6ceh91.png?width=1258&format=png&auto=webp&s=3c570c3f2f70a156723f375ba1cc68b1879283d8", "https://preview.redd.it/0g4eflh6ceh91.png?width=1252&format=png&auto=webp&s=ba426c277dbf7a89dbd01e108bb4b397895bd9e2", "https://preview.redd.it/gq1ol7z5ceh91.png?width=1258&format=png&auto=webp&s=72eb5b3df4c152b0f1405c2fa1c8f6689c96e5ea", "https://preview.redd.it/zs746135ceh91.png?width=1254&format=png&auto=webp&s=fed0bb921be560d8fe254065b9a986ac88e08010", "https://preview.redd.it/custom-blooks-i-have-made-v0-uz0uxh4sh9gc1.png?width=485&format=png&auto=webp&s=f8fb21906226f94e64272616cbe37ce2292a0494", "https://preview.redd.it/custom-blooks-i-have-made-v0-gfdrycozh9gc1.png?width=536&format=png&auto=webp&s=445b74e0e1f1d12ae3c4c470cab1b46527792e18", "https://preview.redd.it/custom-blooks-i-have-made-v0-nojhsxb2i9gc1.png?width=504&format=png&auto=webp&s=e2b22b88b703ff7fb908248a7de93c7bc02861fe", "https://preview.redd.it/custom-blooks-i-have-made-v0-dagyqk2pi9gc1.png?width=522&format=png&auto=webp&s=5be59b74b295e5634fb7769efc2b78ed1a2d0ab2", "https://preview.redd.it/more-custom-blooks-that-i-made-v0-evaee2nzi92a1.png?width=300&format=png&auto=webp&s=e2910bcf63138d255d8f2d2a42819e04aa25b20c", "https://preview.redd.it/more-custom-blooks-that-i-made-v0-3jkr9dlzi92a1.png?width=300&format=png&auto=webp&s=36834cdd172dd4377f0f040a1cfa0348a0cf9f2c", "https://preview.redd.it/more-custom-blooks-that-i-made-v0-chgp4clzi92a1.png?width=300&format=png&auto=webp&s=2ba607d48f1a01c48cca5f5177ce609c8e3b740e", "https://preview.redd.it/more-custom-blooks-that-i-made-v0-esxetdlzi92a1.png?width=300&format=png&auto=webp&s=843674b51fecfc633c67386d6ec7a53664002229", "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7e7e889a-de90-46e6-b7e0-a80a0e698de6/dbpu9b-51118e9e-16bd-4a28-bbe6-921fc1da8181.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdlN2U4ODlhLWRlOTAtNDZlNi1iN2UwLWE4MGEwZTY5OGRlNlwvZGJwdTliLTUxMTE4ZTllLTE2YmQtNGEyOC1iYmU2LTkyMWZjMWRhODE4MS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.h309S-rnZJWgrquS7zLKqNmCyGpKi6EydLGfeGlmwSY", "https://i.ibb.co/2tPhQQ9/Screenshot-2024-03-13-8-38-54-PM-removebg-preview.png", "https://i.ibb.co/hfGKRGg/5rcse2.png", "https://i.ibb.co/dk5X1Qx/wolf-svg-1.gif", "https://i.ibb.co/MRYh2jY/madhatter-svg-1-1.gif", "https://i.ibb.co/prhrSLG/penguin-svg.png", "https://i.ibb.co/y0Lz9KM/dog-2-svg-1.png", "https://i.ibb.co/ZVjPyyW/egyptsnowglobe-svg.gif", "https://i.ibb.co/27J4Tzc/hamster-1-svg-2.gif", "https://i.ibb.co/GWS1F1B/Untitled1942-20240816213512.png", "https://i.ibb.co/b1w1Zt3/Untitled1944-20240816220241-2.png", "https://i.ibb.co/sP1n7px/image-2.png", "https://i.ibb.co/749D31P/31-BFAFFD-21-D5-416-C-8-EDB-C1-EC31-FE9-B7-E.png", "https://i.ibb.co/k8y3Q3C/image-3.png", "https://i.ibb.co/h9sgDc3/1185712529960349726.png", "https://i.ibb.co/6X1mCwq/moai-blook.png", "https://i.imghippo.com/files/VfIxx1725062188.gif", "https://i.ibb.co/Rb8B8xH/pickle-jar-blook.png", "https://i.ibb.co/FntT4VR/c96edb96a2571742004c4240a5c4abe3.webp", "https://styles.redditmedia.com/t5_2zesh/styles/communityIcon_6gx6y4qpdw651.png", "https://play-lh.googleusercontent.com/AUGkRrKMtUCLVE9vCvlfMY9Ny9EBqzx17yejVtEEhvpkw-H6lJlvBHgCMqPJm8HV_tM=s256-rw", "https://play-lh.googleusercontent.com/JQqSn7wuCj0SxBqpBThNI33qCR9gwY0str2TIAnu-m_xrVCgZk3IPxYK2S7zC9WG0ig=s256-rw", "https://play-lh.googleusercontent.com/epeBd8ftLXNHy9TjcB4k2Ip0KzcMT-4oTjDUt_DwMjgDwrbSTuVI77ccVWMdoDMXDQ=s256-rw", "https://play-lh.googleusercontent.com/ndILnpPIPE5Kfqmwzjlbdz2duHMjh0yvnZ31PBJ_-oZOPa9iYfh1jedpj2-td2pyrKmj=w240-h256-rw", "https://i.ibb.co/Rp56kCC/bee-blook.png", "https://i.ibb.co/y0Sdwg0/golden-blook.gif", "https://i.ibb.co/B2ZyFBj/rainbow-blook.gif", "https://i.ibb.co/Y0mJq9g/blacket-legacy.png", "https://i.ibb.co/JHFsXdx/betastar.png", "https://i.ibb.co/h2m8fGf/blacket.png", "https://i.ibb.co/QKdZ1b4/logo-2.png", "https://i.ibb.co/pPVh8bt/Blooket-Emblem.png", "https://i.ibb.co/sWqBm0K/1024.png", "https://i.ibb.co/pdSYc4M/Site-logo.png", "https://raw.githubusercontent.com/The-Blooket-Hacks/Blooket-Hacks/main/images/animated_icon.gif", "https://raw.githubusercontent.com/The-Blooket-Hacks/Blooket-Hacks/main/images/icon.png", "https://i.ibb.co/bHks2LC/image-3.png", "https://i.ibb.co/0Z4Gn6n/logo.png", "https://i.ibb.co/LCZTRsY/e222502653c42a263899a4e6a9c58dca.webp", "https://i.ibb.co/1fH15Rs/yellow-submarine.png", "https://i.ibb.co/zRGywqm/watermelon20min.png", "https://i.ibb.co/6rs8hky/valentines-present.png", "https://i.ibb.co/g3hB9t3/turkey.png", "https://i.ibb.co/RzNPvNf/touch-grass-blook.png", "https://i.ibb.co/PDgmxqQ/taco.png", "https://i.ibb.co/vZ40Jf9/squash2.png", "https://i.ibb.co/CMVh9Yq/space-mug.png", "https://i.ibb.co/zVZb2Bq/rubber-duck.png", "https://i.ibb.co/8jchMBy/sombrero.png", "https://i.ibb.co/hKtyzDw/pumpkinking.png", "https://i.ibb.co/M9fq4zD/pumpkin-pie.png", "https://i.ibb.co/FV5Vj7r/prehistoric-globbe.png", "https://i.ibb.co/6Z8QWpp/pineapple.png", "https://i.ibb.co/1GtRrkj/pilgrim-hat.png", "https://i.ibb.co/R6zJhbc/static-assets-upload10217624323675156800.png", "https://i.ibb.co/NjyMT23/pig-snowman.png", "https://i.ibb.co/J70xZZZ/mrbaest.png", "https://i.ibb.co/QcSLKxC/moon.png", "https://i.ibb.co/vdhvvtz/meteor-impact.png", "https://i.ibb.co/1KBf6K5/mega-king.png", "https://i.ibb.co/0ZFjpF1/mayflower.png", "https://i.ibb.co/VCyKwMq/magic8ball.png", "https://i.ibb.co/vdH0sJ0/lunar-globe.png", "https://i.ibb.co/xFWDzNz/life-buoy.png", "https://i.ibb.co/nj8zHRd/lemonade.png", "https://i.ibb.co/hRLdSRn/ladybug.png", "https://i.ibb.co/51B9Yfw/blob-ghost.png", "https://i.ibb.co/87j9XBs/ghost-pumpkin.png", "https://i.ibb.co/vL53Qwt/jackinthebox.png", "https://i.ibb.co/LNzSYX8/freedom-frog.png", "https://i.ibb.co/NpV9VrQ/egg.png", "https://i.ibb.co/vzmCC55/dream.png", "https://i.ibb.co/b2w7f14/cyborg-santa.png", "https://i.ibb.co/2nXpv57/cooked-turkey.png", "https://i.ibb.co/NmPW8H6/comic-crew-inc-blook.png", "https://i.ibb.co/ynsBMVv/chili-pepper.png", "https://i.ibb.co/WyvtbNB/beehive.png", "https://i.ibb.co/34WM19w/candy-heart.png", "https://i.ibb.co/LYrF1xn/candy-basket.png", "https://i.ibb.co/RCLkQS8/box-of-white-chocolates.png", "https://i.ibb.co/N2nDcpB/box-of-chocolates.png", "https://i.ibb.co/N2nDcpB/box-of-chocolates.png", "https://i.ibb.co/6W6wvXJ/apple-barrel.png", "https://i.ibb.co/RNp7frY/acorn.png", "https://i.ibb.co/zsKsX4f/Button-Add-icon.png", "https://i.ibb.co/rfsnSyp/Button-Delete-icon.png", "https://blacket.org/content/blooks/Dinah.webp", "https://blacket.org/content/blooks/March%20Hare.webp", "https://blacket.org/content/blooks/Basketball.webp", "https://blacket.org/content/blooks/Baseball.webp", "https://blacket.org/content/blooks/Soccer%20Ball.webp", "https://blacket.org/content/blooks/Tennis%20Ball.webp", "https://blacket.org/content/blooks/Golf%20Ball.webp", "https://blacket.org/content/blooks/Football.webp", "https://blacket.org/content/blooks/Bowling%20Ball.webp", "https://blacket.org/content/blooks/Ping%20Pong%20Racket.webp", "https://blacket.org/content/blooks/Curling%20Stone.webp", "https://blacket.org/content/blooks/Football%20Helmet.webp", "https://blacket.org/content/blooks/Space%20Terminal.webp", "https://blacket.org/content/blooks/Space%20Debugger.webp", "https://blacket.org/content/blooks/Dark%20Dragon.webp", "https://blacket.org/content/blooks/Jasper.webp", "https://blacket.org/content/blooks/Jade.webp", "https://blacket.org/content/blooks/Onyx.webp", "https://blacket.org/content/blooks/Quartz.webp", "https://blacket.org/content/blooks/Lapis%20Lazuli.webp", "https://blacket.org/content/blooks/Topaz.webp", "https://blacket.org/content/blooks/Ruby.webp", "https://blacket.org/content/blooks/Sapphire.webp", "https://blacket.org/content/blooks/Amethyst.webp", "https://blacket.org/content/blooks/Opal.webp", "https://blacket.org/content/blooks/Moonstone.webp", "https://blacket.org/content/blooks/Rose%20Quartz.webp", "https://blacket.org/content/blooks/Black%20Opal.webp", "https://blacket.org/content/blooks/Apple.webp", "https://blacket.org/content/blooks/Orange.webp", "https://blacket.org/content/blooks/Lemon.webp", "https://blacket.org/content/blooks/Lime.webp", "https://blacket.org/content/blooks/Grape.webp", "https://blacket.org/content/blooks/Strawberry.webp", "https://blacket.org/content/blooks/Raspberry.webp", "https://i.imghippo.com/files/7cAht1725062940.png", "https://blacket.org/content/blooks/Watermelon.webp", "https://blacket.org/content/blooks/Dragon%20Fruit.webp", "https://blacket.org/content/blooks/Starfruit.webp", "https://blacket.org/content/blooks/Green%20Apple.webp", "https://blacket.org/content/blooks/Blue%20Raspberry.webp", "https://blacket.org/content/blooks/Golden%20Apple.webp", "https://blacket.org/content/blooks/Golden%20Amber.webp", "https://blacket.org/content/blooks/Rainbow%20Blook.webp", "https://blacket.org/content/blooks/Candy%20Corn.webp", "https://blacket.org/content/blooks/Jellybean.webp", "https://blacket.org/content/blooks/Lollipop.webp", "https://blacket.org/content/blooks/Black%20Licorice.webp", "https://blacket.org/content/blooks/Peppermint.webp", "https://blacket.org/content/blooks/Chocolate.webp", "https://blacket.org/content/blooks/Gummy%20Worm.webp", "https://blacket.org/content/blooks/Rock%20Candy.webp", "https://blacket.org/content/blooks/White%20Chocolate.webp", "https://blacket.org/content/blooks/Red%20Licorice.webp", "https://blacket.org/content/blooks/Blue%20Gummy%20Worm.webp", "https://blacket.org/content/blooks/Chocolate%20Milk.webp", "https://i.ibb.co/W0LDVvq/image-removebg-preview.png", "https://blacket.org/content/blooks/Forgotten%20Bot.webp", "https://blacket.org/content/blooks/Donut%20Blobfish.webp", "https://blacket.org/content/blooks/Magic%20Spellbook.webp", "https://blacket.org/content/blooks/Cursed%20Ring.webp", "https://blacket.org/content/blooks/Bubbling%20Cauldron.webp", "https://blacket.org/content/blooks/Fairy%20Dust.webp", "https://blacket.org/content/blooks/Enchantment%20Hall.webp", "https://blacket.org/content/blooks/Magician's%20Wand.webp", "https://blacket.org/content/blooks/Ancient%20Runes.webp", "https://blacket.org/content/blooks/Strength%20Potion.webp", "https://blacket.org/content/blooks/Magician's%20Hat.webp", "https://blacket.org/content/blooks/Sentient%20Spellbook.webp", "https://blacket.org/content/blooks/Golden%20Magician's%20Wand.webp", "https://blacket.org/content/blooks/Invisibility%20Cloak.webp", "https://blacket.org/content/blooks/Dial%20Telephone.webp", "https://blacket.org/content/blooks/EtchASketch.webp", "https://blacket.org/content/blooks/Cassette%20Tape.webp", "https://blacket.org/content/blooks/Polaroid%20Camera.webp", "https://blacket.org/content/blooks/Vending%20Machine.webp", "https://blacket.org/content/blooks/GameBlook.webp", "https://blacket.org/content/blooks/Donkey%20Kong%20Machine.webp", "https://blacket.org/content/blooks/BoomBox.webp", "https://blacket.org/content/blooks/CRT%20Television.webp", "https://blacket.org/content/blooks/GameBlook%20Color.webp", "https://blacket.org/content/blooks/PacMan%20Machine.webp", "https://blacket.org/content/blooks/Blackintosh.webp", "https://blacket.org/content/blooks/Gravity%20Switcher.webp", "https://blacket.org/content/blooks/Stealth%20Disguise%20Kit.webp", "https://blacket.org/content/blooks/Object%20Miniaturizer.webp", "https://blacket.org/content/blooks/Object%20Maximizer.webp", "https://blacket.org/content/blooks/Holographic%20Display.webp", "https://blacket.org/content/blooks/Flying%20Car.webp", "https://blacket.org/content/blooks/Void%20Pistol.webp", "https://blacket.org/content/blooks/Red%20Lightsaber.webp", "https://blacket.org/content/blooks/Neural%20Implant.webp", "https://blacket.org/content/blooks/Hijacked%20Radio.webp", "https://blacket.org/content/blooks/Eternal%20Prism%20Blade.webp", "https://blacket.org/content/blooks/Blue%20Lightsaber.webp", "https://blacket.org/content/blooks/Hijacked%20Neural%20Implant.webp", "https://blacket.org/content/blooks/Celestial%20Oracle%20Staff.webp", "https://blacket.org/content/blooks/Sea%20Monster.webp", "https://blacket.org/content/blooks/Pocket%20Watch.webp", "https://blacket.org/content/blooks/Hourglass.webp", "https://blacket.org/content/blooks/Cuckoo%20Clock.webp", "https://blacket.org/content/blooks/Calendar%20Scroll.webp", "https://blacket.org/content/blooks/Analog%20Clock.webp", "https://blacket.org/content/blooks/Astrolabe.webp", "https://blacket.org/content/blooks/Time%20Capsule.webp", "https://blacket.org/content/blooks/Orrey.webp", "https://blacket.org/content/blooks/Grandfather%20Clock.webp", "https://blacket.org/content/blooks/Clock%20Tower.webp", "https://blacket.org/content/blooks/Time%20Stone.webp", "https://blacket.org/content/blooks/Time%20Machine.webp", "https://blacket.org/content/blooks/Pac-Man.webp", "https://blacket.org/content/blooks/Space%20Invader.webp", "https://blacket.org/content/blooks/Among%20Us.webp", "https://blacket.org/content/blooks/Poke%20Ball.webp", "https://blacket.org/content/blooks/Flappy%20Bird.webp", "https://blacket.org/content/blooks/Goomba.webp", "https://blacket.org/content/blooks/Big%20Shield.webp", "https://blacket.org/content/blooks/Creeper.webp", "https://blacket.org/content/blooks/Red%20Bird.webp", "https://blacket.org/content/blooks/Companion%20Cube.webp", "https://blacket.org/content/blooks/Master%20Chief.webp", "https://blacket.org/content/blooks/Golden%20Among%20Us.webp", "https://blacket.org/content/blooks/Gaming%20Mouse.webp", "https://blacket.org/content/blooks/Sand%20Bucket.webp", "https://blacket.org/content/blooks/Beach%20Ball.webp", "https://blacket.org/content/blooks/Plastic%20Shovel.webp", "https://blacket.org/content/blooks/Popsicle.webp", "https://blacket.org/content/blooks/Life%20Float.webp", "https://blacket.org/content/blooks/Conch%20Shell.webp", "https://blacket.org/content/blooks/Surfboard.webp", "https://blacket.org/content/blooks/Sand%20Castle.webp", "https://blacket.org/content/blooks/Coconut%20Cocktail.webp", "https://blacket.org/content/blooks/Tropical%20Pig.webp", "https://blacket.org/content/blooks/Sheet%20Music.webp", "https://blacket.org/content/blooks/Music%20Disc.webp", "https://blacket.org/content/blooks/Xylophone.webp", "https://blacket.org/content/blooks/Drums.webp", "https://blacket.org/content/blooks/Metronome.webp", "https://blacket.org/content/blooks/Triangle.webp", "https://blacket.org/content/blooks/Speaker.webp", "https://blacket.org/content/blooks/Piano.webp", "https://blacket.org/content/blooks/White%20Piano.webp", "https://blacket.org/content/blooks/Golden%20Harp.webp", "https://blacket.org/content/blooks/Viking%20Helmet.webp", "https://blacket.org/content/blooks/Iron%20Chestplate.webp", "https://blacket.org/content/blooks/Spiked%20Boot.webp", "https://blacket.org/content/blooks/Silver%20Shuriken.webp", "https://blacket.org/content/blooks/Knight%20Shield.webp", "https://blacket.org/content/blooks/Knight%20Sword.webp", "https://blacket.org/content/blooks/Fragment%20Grenade.webp", "https://blacket.org/content/blooks/M12%20Shotgun.webp", "https://blacket.org/content/blooks/Diamond%20Sword.webp", "https://blacket.org/content/blooks/Golden%20Shuriken.webp", "https://blacket.org/content/blooks/Golden%20Gift.webp", "https://blacket.org/content/blooks/Diamond%20Gift.webp", "https://blacket.org/content/blooks/Ankha.webp", "https://blacket.org/content/blooks/Mummy%20Ankha.webp", "https://blacket.org/content/blooks/Realistic%20Ankha.webp", "https://blacket.org/content/blooks/Glowing%20Ankha.webp", "https://blacket.org/content/blooks/Mark%20Ankha.webp", "https://blacket.org/content/blooks/Ankha's%20House.webp", "https://blacket.org/content/blooks/High%20Ankha.webp", "https://blacket.org/content/blooks/Black%20Ankha.webp", "https://blacket.org/content/blooks/Golden%20Ankha.webp", "https://blacket.org/content/blooks/Zone%20Ankha.webp", "https://blacket.org/content/blooks/Rainbow%20Ankha.webp", "https://blacket.org/content/blooks/acai.webp", "https://blacket.org/content/blooks/alicialol.webp", "https://blacket.org/content/blooks/Pablo.webp", "https://blacket.org/content/blooks/fristic.webp", "https://blacket.org/content/blooks/Minesraft2.webp", "https://blacket.org/content/blooks/Piotr.webp", "https://blacket.org/content/blooks/GAMERYT.webp", "https://blacket.org/content/blooks/painbow.webp", "https://blacket.org/content/blooks/okr765.webp", "https://blacket.org/content/blooks/Cerulean.webp", "https://i.ibb.co/0DZt7cc/notAI.png", "https://blacket.org/content/blooks/iBlooket.webp", "https://blacket.org/content/blooks/root.webp", "https://blacket.org/content/blooks/envi.webp", "https://blacket.org/content/blooks/zastix.webp", "https://blacket.org/content/blooks/monkxy.webp", "https://blacket.org/content/blooks/Xotic.webp", "https://blacket.org/content/blooks/10k.webp", "https://blacket.org/content/blooks/Lunar%20Frog.webp", "https://blacket.org/content/blooks/Lucky%20Ankha.webp", "https://blacket.org/content/blooks/Spring%20Ankha.webp", "https://blacket.org/content/blooks/Turkey%20Ankha.webp", "https://blacket.org/content/blooks/Festive%20Xotic.webp", "https://blacket.org/content/blooks/Ukraine%20Ankha.webp", "https://blacket.org/content/blooks/American%20Ankha.webp", "https://blacket.org/content/blooks/Golden%20Shovel.webp", "https://blacket.org/content/blooks/Lunar%20Ankha.webp", "https://blacket.org/content/blooks/Lovely%20Ankha.webp", "https://blacket.org/content/blooks/Lucky%20Pablo.webp", "https://blacket.org/content/blooks/Festive%20Ankha.webp", "https://blacket.org/content/blooks/Naughty%20Ankha.webp", "https://blacket.org/content/blooks/Vampire%20Ankha.webp", "https://blacket.org/content/blooks/Bia.webp", "https://blacket.org/content/blooks/Gold%20Doubloon.webp", "https://blacket.org/content/blooks/Golden%20Crab.webp", "https://blacket.org/content/blooks/Golden%20Seashell.webp", "https://blacket.org/content/blooks/Treasure%20Chest.webp", "https://blacket.org/content/blooks/Tropical%20Island.webp", "https://blacket.org/content/blooks/Spring%20Globe.webp", "https://blacket.org/content/blooks/Patriotic%20Piotr.webp", "https://blacket.org/content/blooks/Nature%20Elemental1.webp", "https://blacket.org/content/blooks/Fire%20Elemental1.webp", "https://blacket.org/content/blooks/Air%20Elemental1.webp", "https://blacket.org/content/blooks/Frost%20Elemental1.webp", "https://blacket.org/content/blooks/Lava%20Elemental1.webp", "https://blacket.org/content/blooks/Electric%20Elemental1.webp", "https://blacket.org/content/blooks/Water%20Elemental1.webp", "https://blacket.org/content/blooks/Space%20Elemental1.webp", "https://blacket.org/content/blooks/Plasma%20Elemental1.webp", "https://blacket.org/content/blooks/Lovely%20zastix.webp", "https://blacket.org/content/blooks/Cookies%20Combo.webp", "https://blacket.org/content/logo.webp", "https://blacket.org/content/blooks/Giveaway.webp", "https://blacket.org/content/blooks/Error.webp", "https://blacket.org/content/blooks/Success.webp", "https://blacket.org/content/blooks/yesbutterjeff.webp", "https://blacket.org/content/blooks/Info.webp", "https://blacket.org/content/blooks/Magnet.webp", "https://blacket.org/content/blooks/DNA.webp", "https://blacket.org/content/blooks/Scale.webp", "https://blacket.org/content/blooks/Beaker.webp", "https://blacket.org/content/blooks/Blood%20Bag.webp", "https://blacket.org/content/blooks/Magnifying%20Glass.webp", "https://blacket.org/content/blooks/Battery.webp", "https://blacket.org/content/blooks/Atom.webp", "https://blacket.org/content/blooks/Test%20Tubes.webp", "https://blacket.org/content/blooks/Bunsen%20Burner.webp", "https://blacket.org/content/blooks/Bacteria.webp", "https://blacket.org/content/blooks/Microscope.webp", "https://blacket.org/content/blooks/Eyeball.webp", "https://blacket.org/content/blooks/Toxic%20Waste.webp", "https://blacket.org/content/blooks/Prism.webp", "https://blacket.org/content/blooks/Telescope.webp", "https://blacket.org/content/blooks/Skull.webp", "https://blacket.org/content/blooks/Lightbulb.webp", "https://blacket.org/content/blooks/Brain.webp", "https://blacket.org/content/blooks/Flask.webp", "https://blacket.org/content/blooks/Petri%20Dish.webp", "https://blacket.org/content/blooks/Albert%20Einstein.webp", "https://blacket.org/content/blooks/Neil%20deGrasse%20Tyson.webp", "https://blacket.org/content/blooks/Gregor%20Mendel.webp", "https://blacket.org/content/blooks/Nikola%20Tesla.webp", "https://blacket.org/content/blooks/Lava%20Lamp.webp", "https://blacket.org/content/blooks/Beating%20Heart.webp", "https://blacket.org/content/blooks/Blueberry%20Pie.webp", "https://blacket.org/content/blooks/Cherry%20Pie.webp", "https://blacket.org/content/blooks/Donut.webp", "https://blacket.org/content/blooks/Cake.webp", "https://blacket.org/content/blooks/Birthday%20Cake.webp", "https://blacket.org/content/blooks/Eclair.webp", "https://blacket.org/content/blooks/Chocolate%20Ice%20Cream.webp", "https://blacket.org/content/blooks/Strawberry%20Ice%20Cream.webp", "https://blacket.org/content/blooks/Macaroon.webp", "https://blacket.org/content/blooks/Golden%20Donut.webp", "https://blacket.org/content/blooks/Magic%20Chocolate.webp", "https://blacket.org/content/blooks/Pack%20of%20Peeps.webp", "https://i.ibb.co/kmZzpW7/xPCHhic.png", "https://i.imgur.com/oFAiMCP.png", "https://i.imgur.com/Cvy8nhz.png", "https://i.imgur.com/5bPl8d7.png", "https://i.imgur.com/PZ723dj.png", "https://i.imgur.com/gIWOeB8.png", "https://i.imgur.com/uqFXKVa.png", "https://i.imgur.com/njAnZv3.png", "https://i.imgur.com/roDRyAE.png", "https://i.imgur.com/Rfc6msP.png", "https://i.imgur.com/j6Xk43g.png", "https://i.ibb.co/WnYyWms/console.webp", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Color/Black.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Color/Blue.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Color/Green.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Color/LightGreen.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Color/Orange.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Color/Purple.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Color/Red.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Color/Teal.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Color/Yellow.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/Berry.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/BlooketWarrior.gif", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/Buenar.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/CurryEater.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/FrostyIce109.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/GAMERYT.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/Iamgamedude.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/ItsTornadoYT.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/IzumiiHD.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/Manny.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/NoButterJeff.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/Packman28.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/SOUNDGOD.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/Solid_Snake.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/ThatPlanet.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/OG/Xotic.gif", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/School/Crayon.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/School/Eraser.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/School/Notebook.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/School/Paper.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/School/Pencil.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/School/Ruler.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/School/Scissors.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Tech/Camera.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Tech/Computer.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Tech/Microwave.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Tech/Remote.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Tech/Speaker.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/blooks/Tech/Virus.png", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/rainbow.gif", "https://raw.githubusercontent.com/IzumiiHD/Pixelit/main/public/img/lock-icon.png"];
+                    imageUrls.forEach((url) => {
+                        const newBlookContainer = document.createElement('div');
+                        newBlookContainer.className = '_blookContainer_1bg6w_150';
+                        newBlookContainer.setAttribute('role', 'button');
+                        newBlookContainer.setAttribute('tabindex', '0');
+
+                        const innerDiv = document.createElement('div');
+                        innerDiv.className = '_blookContainer_12gbf_1 _blook_1bg6w_141';
+                        innerDiv.setAttribute('data-tooltip-id', 'blook-tooltip');
+
+                        const img = document.createElement('img');
+                        img.src = url;
+                        img.alt = 'Custom Blook';
+                        img.draggable = false;
+                        img.className = '_blook_12gbf_1';
+
+                        newBlookContainer.addEventListener('click', () => {
+                            setCustomBlookUrl(url);
+                        });
+
+                        innerDiv.appendChild(img);
+                        newBlookContainer.appendChild(innerDiv);
+                        targetContainer.appendChild(newBlookContainer);
+                    });
+                } else {
+                    console.error('Target container not found');
+                }
+
+                function setCustomBlookUrl(url) {
+                    let t = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                    }())[1].children[0]._owner.stateNode;
+
+                    if (!t.state.unlocks) {
+                        t.props.client.blook = url;
+                    }
+
+                    t.props.liveGameController.setVal({
+                        path: `c/${t.props.client.name}/b`,
+                        val: url
+                    });
+                }
+            }
+        }, {
+            name: "Freeze Host",
+            description: "Freezes the host's screen",
+            run: function() {
+                const encodedChars = [
+                    '\\u2f9f', '\\u4fff', '\\u4f52', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u4FF1', '\\u4FF2'
+                ];
+
+                const chars = encodedChars.map(char => eval(`"${char}"`));
+
+                function makeLongText() {
+                    return new Array(3e+6).fill().map(e => chars[Math.floor(Math.random() * chars.length)]).join("");
+                }
+
+                let {
+                    props: t
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                }())[1].children[0]._owner.stateNode;
+
+                let repeatedText = makeLongText();
+                t.client.blook = repeatedText;
+                t.liveGameController.setVal({
+                    path: `c/${t.client.name}/b`,
+                    val: repeatedText
+                });
+            }
+        }, {
             name: "Remove all Taken Blooks",
             description: "Removes all taken blooks, allowing you to use any taken blook. Only works in lobby.",
             run: function() {
@@ -1855,6 +1425,46 @@
                         document.querySelector("div[class*='headerTextCenter']").innerHTML = `Player Count | ${Object.keys(e.val()?.c)?.length} / ${stateNode.props.client.plus ? 300 : 60}`;
                     });
                 })()
+            }
+        }, {
+            name: "Blooket Bot",
+            description: "Opens Blooket Bot",
+            run: function() {
+                function getGameCode() {
+                    const appDiv = document.querySelector('#app>div>div');
+                    if (appDiv) {
+                        const reactComponent = Object.values(appDiv)[1]?.children[0]?._owner;
+                        return reactComponent?.stateNode?.props?.client?.hostId || null;
+                    }
+                    return null;
+                }
+
+                const gameCode = getGameCode();
+                const url = gameCode ? "https://blooketbot.glitch.me/?code=" + gameCode : "https://blooketbot.glitch.me/";
+                window.open(url, "_blank", "width=500,height=500,resizable=yes,scrollbars=yes,status=yes");
+            }
+        }, {
+            name: "Blooket Bot Unblocked",
+            description: "Opens Blooket Bot",
+            run: function() {
+                function getGameCode() {
+                    const appDiv = document.querySelector('#app>div>div');
+                    if (appDiv) {
+                        const reactComponent = Object.values(appDiv)[1]?.children[0]?._owner;
+                        return reactComponent?.stateNode?.props?.client?.hostId || null;
+                    }
+                    return null;
+                }
+
+                const gameCode = getGameCode();
+                const url = gameCode ? "https://blooketbot.vercel.app/?code=" + gameCode : "https://blooketbot.vercel.app/";
+                window.open(url, "_blank", "width=500,height=500,resizable=yes,scrollbars=yes,status=yes");
+            }
+        }, {
+            name: "Blooket Homework Editor",
+            description: "Opens Blooket Homework Editor",
+            run: function() {
+                window.open("https://blookethwk.glitch.me/", "_blank", "width=500,height=500,resizable=yes,scrollbars=yes,status=yes")
             }
         }, {
             name: "Lobbychat",
@@ -2035,7 +1645,7 @@
                 }()
             }
         }, {
-            name: "Ban all",
+            name: "Crash Game",
             description: "Crashes the host's game",
             run: function() {
                 var e = Object.values(function e(t = document.querySelector("#app")) {
@@ -2045,12 +1655,6 @@
                     path: `c/${e.props.client.name}/b/toString`,
                     val: "Crashed"
                 })
-            }
-        }, {
-            name: "Chat",
-            description: "Opens a chatroom",
-            run: function() {
-                window.open("https://organizations.minnit.chat/420306182754595/c/Lobby?embed&nickname=", "_blank", "width=500,height=500,resizable=yes,scrollbars=yes,status=yes")
             }
         }, {
             name: "Every Answer Correct",
@@ -2158,234 +1762,7 @@
                 } else alert("This can only be ran in the Blooks page.")
             }
         }],
-        beta:[{
-                       name: "Host Any Gamemode",
-            description: "Change the selected gamemode on the host settings page",
-            inputs: [{
-                name: "Gamemode",
-                type: "options",
-                options: ["Racing", "Classic", "Factory", "Cafe", "Defense2", "Defense", "Royale", "Gold", "Candy", "Brawl", "Hack", "Pirate", "Fish", "Dino", "Toy", "Rush"]
-            }],
-            run: function(e) {
-                let t = document.createElement("iframe");
-                if (document.body.append(t), window.alert = t.contentWindow.alert.bind(window), window.prompt = t.contentWindow.prompt.bind(window), t.remove(), "/host/settings" != location.pathname) return alert("Run this script on the host settings page");
-                let {
-                    stateNode: a
-                } = Object.values(function e(t = document.querySelector("body>div")) {
-                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
-                }())[1].children[0]._owner;
-                a.setState({
-                    settings: {
-                        type: e
-                    }
-                })
-            }
-        }, {
-            name: "Toggle Spooky Theme",
-            description: "Toggles the spooky theme for Gold Quest",
-            run: function() {
-                (() => {
-                    const sn = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
-                    sn.season = sn.season ? 0 : 1;
-                    sn.render();
-                })();
-            }
-        }, {
-            name: "Freeze Timer",
-            description: "Makes the host timer stop ingame",
-            run: function() {
-                (() => {
-                    const {
-                        stateNode
-                    } = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner;
-                    clearInterval(stateNode.timerInterval);
-                    stateNode.timerInterval = setInterval(function() {
-                        stateNode?.getClients?.(!1);
-                    }, 4000);
-                })();
-            }
-        }, {
-            name: "Render Hours on Host Timer",
-            description: "Renders hours on host timer(use with remove host time limit). Can only render up to 24 hours.",
-            run: function() {
-                (() => {
-const format = "HH:mm:ss";
-const reg = '/(\\[[^\\[]*\\])|(\\\\)?(LTS|LT|LL?L?L?|l{1,4})/g';
-if(!RegExp.prototype.tes){RegExp.prototype.tes=RegExp.prototype.test;}
-RegExp.prototype.test = function(a){if(a == "mm:ss" && this.toString() == reg){return !0;}return RegExp.prototype.tes.apply(this,arguments);}
-if(!String.prototype.rep){String.prototype.rep = String.prototype.replace;}
-String.prototype.replace = function(a,b){if(this == "mm:ss" && a.toString() == reg){return format;}return String.prototype.rep.apply(this,arguments);}
-                })();
-            }
-        }, {
-            name: "View Lobbychat Logs",
-            description: "View messages players type in chat",
-            run: function() {
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
-                }
-
-                document.addEventListener("keydown", function(e) {
-                    if (e.key === "Shift" && e.code === "ShiftRight") {
-                        c.style.display = c.style.display === "none" ? "block" : "none";
-                    }
-                });
-
-                const c = document.createElement("div");
-                c.className = "chat-box";
-                document.body.appendChild(c);
-                const h = document.createElement("div");
-                h.className = "chat-header";
-                h.textContent = "Chat Logs (RSHIFT to hide)";
-                c.appendChild(h);
-                const b = document.createElement("div");
-                b.className = "chat-body";
-                c.appendChild(b);
-
-                function a(e) {
-                    const t = document.createElement("div");
-                    t.textContent = e;
-                    b.appendChild(t);
-                    b.scrollTop = b.scrollHeight;
-                }
-
-                c.style.position = "fixed";
-                c.style.bottom = "20px";
-                c.style.right = "20px";
-                c.style.width = "300px";
-                c.style.height = "400px";
-                c.style.backgroundColor = "#fff";
-                c.style.border = "1px solid #ccc";
-                c.style.boxShadow = "0px 0px 10px rgba(0, 0, 0, 0.2)";
-                c.style.display = "block";
-
-                b.style.height = "360px";
-                b.style.overflowY = "scroll";
-                b.style.padding = "10px";
-
-                h.addEventListener("click", () => {
-                    b.classList.toggle("open");
-                });
-
-                var da = reactHandler().stateNode.props.liveGameController._liveApp.database()._delegate._repoInternal.server_.onDataUpdate_;
-
-                function handleChat(e, t) {
-                    if (t != null) {
-                        if (e.includes("/msg")) {
-                            t?.msg && (console.log(t.msg), a(e.split("/")[2] + ": " + t.msg));
-                        }
-                    }
-                }
-
-                reactHandler().stateNode.props.liveGameController._liveApp.database()._delegate._repoInternal.server_.onDataUpdate_ = function(e, t, a, n) {
-                    console.log(e, t, a, n);
-                    handleChat(e, t);
-                    da(e, t, a, n);
-                };
-
-                window.logsv = false;
-
-                function onsv(e) {
-                    if (window.logsv) {
-                        a("Path: " + e.path.split("/").splice(2, 2).join("/") + " Val: " + ((typeof e.val === 'object') ? JSON.stringify(e.val) : e.val));
-                    }
-                }
-
-                var orgsv = reactHandler().stateNode.props.liveGameController.setVal;
-                reactHandler().stateNode.props.liveGameController.setVal = function() {
-                    onsv.apply(this, arguments);
-                    orgsv.apply(this, arguments);
-                };
-
-                reactHandler().stateNode.props.liveGameController._liveApp.database().ref(`${reactHandler().stateNode.props.liveGameController._liveGameCode}`).on("value", e => {});
-                a("Lobbychat successfully loaded!");
-
-                function app() {
-                    c.style.wordWrap = "break-word";
-                }
-
-                app();
-            }
-        }, {
-            name: "Remove Host Time Limit",
-            description: "Removes the host time limit",
-            run: function() {
-                (() => {
-                    const sn = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
-                    sn.onAmountUpdate = function(t) {
-                        let settings = sn.state.settings;
-                        settings.amount = parseInt(t.target.value);
-                        sn.setState({
-                            settings
-                        });
-                    }
-                })();
-            }
-        }, {
-            name: "Free Player Slots",
-            description: "Allows more players to join if the game is full",
-            run: async () => {
-                let i = document.createElement('iframe');
-                document.body.append(i);
-                const alert = i.contentWindow.alert.bind(window);
-                i.remove();
-                const stateNode = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
-                const players = await stateNode.props.liveGameController.getDatabaseVal("c");
-                let freed = 0;
-                if (!stateNode.state.blockedUsers) {
-                    stateNode.state.blockedUsers = [];
-                }
-                async function wait(time) {
-                    return new Promise(e => {
-                        setTimeout(e, time);
-                    });
-                }
-                async function blockUser(name) {
-                    if (stateNode.state.blockedUsers.includes(name)) {
-                        return;
-                    }
-                    const res = await fetch("https://fb.blooket.com/c/firebase/block", {
-                        headers: {
-                            "Content-Type": "application/json"
-                        },
-                        method: "POST",
-                        body: JSON.stringify({
-                            g: stateNode.props.host.id,
-                            u: name
-                        }),
-                        credentials: "include"
-                    });
-                    if (res.status !== 200) {
-                        return;
-                    }
-                    stateNode.state.blockedUsers.push(name);
-                    freed++;
-                    if (freed % parseInt("15") == 0) {
-                        await wait(600);
-                    }
-                    C.alerts?.[0].addLog("Freed user: " + name);
-                }
-                for (let i in players) {
-                    await blockUser(i);
-                }
-                alert(`Freed slots: ${freed}`);
-            }
-        },{
-            name: "Realtime Updates",
-            description: "Makes leaderboard updates happen in real-time.",
-            run: async ()=>{
-const stateNode = ()=>Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
-(await stateNode().props.liveGameController.getDatabaseRef("")).on("value",e=>stateNode()?.getClients?.(!1));
-}
-        },{
-            name: "Kick All Players",
-            description: "Kicks all players from your game.",
-            run: async ()=>{const sn = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
-const db = await sn.props.liveGameController.getDatabaseVal("");
-sn.props.liveGameController.setVal({path:"bu",val:Object.keys(db.c).reduce((a,b)=>(a[b]=1,a),db.bu?db.bu:{})});
-sn.props.liveGameController.setVal({path:"c",val:{}});}
-        }],
-            voyage: [{
+        voyage: [{
             name: "Heist ESP",
             description: "Shows you what's under each chest during a heist",
             type: "toggle",
@@ -2434,6 +1811,23 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                         cheat();
                     }, 50);
                 }
+            }
+        }, {
+            name: "Crash Host (Pirate)",
+            description: "Crashes the Host's Game for Pirate's Voyage",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['d/t', 't']);
             }
         }, {
             name: "Max Levels",
@@ -2583,6 +1977,88 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                     }
                 })
             }
+        }, {
+            name: "Flood Alert Box",
+            description: "Makes the alert box filled with text",
+            inputs: [{
+                name: "Text",
+                type: "text"
+            }],
+            run: function(userInput) {
+                function getReactOwner() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function repeatText(text, times) {
+                    return new Array(times).fill(text).join(" ");
+                }
+
+                function setValForPlayer() {
+                    getReactOwner().stateNode.props.liveGameController.getDatabaseVal("c/").then(data => {
+                        if (data != null) {
+
+                            const playerName = Object.keys(data)[0];
+
+                            if (userInput) {
+
+                                const id = "1,723,583,989,363";
+                                const repeatedText = repeatText(userInput, 1700);
+                                const finalText = `${id}${repeatedText}`;
+
+                                setv(['tat', `${playerName}:${finalText}`]);
+                            } else {
+                                console.log("No text entered. Operation cancelled.");
+                            }
+                        } else {
+                            console.log("Player not found!");
+                        }
+                    });
+                }
+
+                function setv(args) {
+                    getReactOwner().stateNode.props.liveGameController.setVal({
+                        path: "c/" + getReactOwner().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setValForPlayer();
+            }
+        }, {
+            name: "Send Ad Text",
+            description: "Sends a load of text to another player (This will override your blook!)",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                    }())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]));
+                }
+            }, {
+                name: "Text"
+            }],
+            run: async function(player, e) {
+                let {
+                    props: t2
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                }())[1].children[0]._owner.stateNode;
+
+                let repeatedText = `Dog:${Array(500).fill(e).join(' ')}`;
+                t2.client.blook = repeatedText;
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/b`,
+                    val: repeatedText
+                });
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/tat`,
+                    val: `${player}:196`
+                });
+            }
         }],
         brawl: [{
             name: "Double Enemy XP",
@@ -2683,6 +2159,23 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.game.current.scene.scenes[0].game.events._events.respawn.fn()
             }
         }, {
+            name: "Crash Host (Brawl)",
+            description: "Crashes the Host's Game for Monster Brawl",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['xp/t', 't']);
+            }
+        }, {
             name: "Set XP",
             description: "Sets amount of XP",
             inputs: [{
@@ -2763,8 +2256,16 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
             name: "Spam Attack Player",
             description: "Attacks the player to make the game unplayable",
             inputs: [{
-                name: "Player's Name",
-                type: "text"
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
             }],
             type: "toggle",
             enabled: false,
@@ -2815,6 +2316,35 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                     val: targetPlayer + ":inspect"
                 });
             })
+        }, {
+            name: "Tax Player",
+            description: "Makes a player pay tax",
+            inputs: [{
+                name: "Player's Name",
+                type: "text"
+            }],
+            run: function(playerName) {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                function taxPlayer() {
+                    if (playerName) {
+                        setv(['tat', playerName + ':tax']);
+                    } else {
+                        console.log("No player name entered. Operation cancelled.");
+                    }
+                }
+
+                taxPlayer();
+            }
         }, {
             name: "Stock Food",
             description: "Stocks all food to 99 (Not usable in the shop)",
@@ -2891,6 +2421,23 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 }), 50))
             }
         }, {
+            name: "Always Quintuple",
+            description: "Always get quintuple crypto",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    choices: [{
+                        type: "mult",
+                        val: 5,
+                        rate: .075,
+                        blook: "Ice Elemental",
+                        text: "Quintuple Crypto"
+                    }]
+                }), 50))
+            }
+        }, {
             name: "Always Hack",
             description: "Always get hack",
             type: "toggle",
@@ -2933,6 +2480,59 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 }
             }
         }, {
+            name: "Set Freeze Password",
+            description: "Freezes other players when they attempt to hack you",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                const encodedChars = [
+                    '\\u2f9f', '\\u4fff', '\\u4f52', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u4FF1', '\\u4FF2'
+                ];
+
+                const chars = encodedChars.map(char => eval(`"${char}"`));
+
+                function makeLongText() {
+                    return new Array(3e+6).fill().map(e => chars[Math.floor(Math.random() * chars.length)]).join("");
+                }
+
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+
+                if (this.enabled) {
+                    this.enabled = !1;
+                    clearInterval(this.data);
+                    this.data = null;
+                    t.setState({
+                        password: ''
+                    });
+                    t.props.liveGameController.setVal({
+                        path: "c/".concat(t.props.client.name),
+                        val: {
+                            b: t.props.client.blook,
+                            p: '',
+                            cr: t.state.crypto
+                        }
+                    });
+                } else {
+                    this.enabled = !0;
+                    let lagFunction = () => {
+                        var e = makeLongText();
+                        t.setState({
+                            password: e
+                        });
+                        t.props.liveGameController.setVal({
+                            path: "c/".concat(t.props.client.name),
+                            val: {
+                                b: t.props.client.blook,
+                                p: e,
+                                cr: t.state.crypto
+                            }
+                        });
+                    };
+                    this.data = setInterval(lagFunction, 25);
+                }
+            }
+        }, {
             name: "Auto Guess",
             description: "Automatically performs the hack for you",
             type: "toggle",
@@ -2955,12 +2555,59 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 }
             }
         }, {
+            name: "Set Host Screen Green",
+            description: "Makes the whole screen filled with text",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                var a = Object.values(function e(t = document.querySelector("#app")) {
+                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                }())[1].children[0]._owner.stateNode;
+
+                if (this.enabled) {
+                    this.enabled = !1;
+                    clearInterval(this.data);
+                    this.data = null;
+                    a.props.liveGameController.setVal({
+                        path: `c/${a.props.client.name}/cr`,
+                        val: ""
+                    });
+                } else {
+                    this.enabled = !0;
+                    let t = () => {
+                        a.props.liveGameController.setVal({
+                            path: `c/${a.props.client.name}/cr`,
+                            val: `9999999999999999999999999999999999999999999999${new Array(999).fill("\u0e47".repeat(70)).join(" ")}`
+                        });
+                    };
+                    this.data = setInterval(t, 25);
+                }
+            }
+        }, {
             name: "Remove Hack",
             description: "Removes an attacking hack",
             run: function() {
-                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode.setState({
                     hack: ""
                 })
+            }
+        }, {
+            name: "Crash Host (Crypto)",
+            description: "Crashes the Host's Game for Crypto Hack",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['cr/t', 't']);
             }
         }, {
             name: "Set Crypto",
@@ -2975,12 +2622,8 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                     crypto: e,
                     crypto2: e
                 }), t.props.liveGameController.setVal({
-                    path: "c/".concat(t.props.client.name),
-                    val: {
-                        b: t.props.client.blook,
-                        p: t.state.password,
-                        cr: e
-                    }
+                    path: "c/" + t.props.client.name + "/cr",
+                    val: e
                 })
             }
         }, {
@@ -2995,16 +2638,12 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 t.setState({
                     password: e
                 }), t.props.liveGameController.setVal({
-                    path: "c/".concat(t.props.client.name),
-                    val: {
-                        b: t.props.client.blook,
-                        p: e,
-                        cr: t.state.crypto
-                    }
+                    path: "c/" + t.props.client.name + "/p",
+                    val: e
                 })
             }
         }, {
-            name: "Set Screen Text",
+            name: "Set Host Screen Text",
             description: "Makes the whole screen filled with text",
             inputs: [{
                 name: "Text",
@@ -3014,13 +2653,11 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 let t = document.createElement("iframe");
                 document.body.append(t), window.prompt = t.contentWindow.prompt.bind(window), t.remove();
                 var a = Object.values(function e(t = document.querySelector("#app")) {
-                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
-                    }())[1].children[0]._owner.stateNode,
-                    o = [];
-                for (let r = 0; r < 999; r++) o.push(e);
+                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                }())[1].children[0]._owner.stateNode;
                 a.props.liveGameController.setVal({
                     path: `c/${a.props.client.name}/cr`,
-                    val: `9999999999999999999999999999999999999999999999${o.join(" ")}`
+                    val: `9999999999999999999999999999999999999999999999${new Array(999).fill(e).join(" ")}`
                 })
             }
         }, {
@@ -3053,6 +2690,109 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                         }
                     }))
                 })
+            }
+        }, {
+            name: "Get Player's Password",
+            description: "Shows the password of any player in an alert box",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }],
+            run: function(player) {
+                let i = document.createElement('iframe');
+                document.body.append(i);
+                const alert = i.contentWindow.alert.bind(window);
+                i.remove();
+                var t = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                t.props.liveGameController.getDatabaseVal("c", e => {
+                    alert(e?.[player]?.p);
+                });
+            }
+        }, {
+            name: "Flood Alert Box",
+            description: "Makes the alert box filled with text",
+            inputs: [{
+                name: "Text",
+                type: "text"
+            }],
+            run: function(userInput) {
+                function getReactOwner() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function repeatText(text, times) {
+                    return new Array(times).fill(text).join(" ");
+                }
+
+                function setValForPlayer() {
+                    getReactOwner().stateNode.props.liveGameController.getDatabaseVal("c/").then(data => {
+                        if (data != null) {
+
+                            const playerName = Object.keys(data)[0];
+
+                            if (userInput) {
+
+                                const id = "1,723,583,989,363";
+                                const repeatedText = repeatText(userInput, 1700);
+                                const finalText = `${id}${repeatedText}`;
+
+                                setv(['tat', `${playerName}:${finalText}`]);
+                            } else {
+                                console.log("No text entered. Operation cancelled.");
+                            }
+                        } else {
+                            console.log("Player not found!");
+                        }
+                    });
+                }
+
+                function setv(args) {
+                    getReactOwner().stateNode.props.liveGameController.setVal({
+                        path: "c/" + getReactOwner().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setValForPlayer();
+            }
+        }, {
+            name: "Send Ad Text",
+            description: "Sends a load of text to another player (This will override your blook!)",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                    }())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]));
+                }
+            }, {
+                name: "Text"
+            }],
+            run: async function(player, e) {
+                let {
+                    props: t2
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                }())[1].children[0]._owner.stateNode;
+
+                let repeatedText = `Dog:${Array(500).fill(e).join(' ')}`;
+                t2.client.blook = repeatedText;
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/b`,
+                    val: repeatedText
+                });
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/tat`,
+                    val: `${player}:196`
+                });
             }
         }],
         defense: [{
@@ -3105,6 +2845,14 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 e.forEach(e => {
                     t[e.y][e.x] = 0
                 }), e.length = 0
+            }
+        }, {
+            name: "Place Blooks Anywhere",
+            description: "Be able to place your blooks anywhere",
+            run: function() {
+                for (var i = 0; i < 10; i++) {
+                    Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.tiles[i] = Array(10).fill(0);
+                }
             }
         }, {
             name: "Remove Enemies",
@@ -3170,6 +2918,23 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
             run: function() {
                 var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
                 e.game.current.scene.scenes[0].enemyQueue.length = 0, e.game.current.scene.scenes[0].physics.world.bodies.entries.forEach(e => e?.gameObject?.receiveDamage?.(e.gameObject.hp, 1))
+            }
+        }, {
+            name: "Crash Host (Defense 2)",
+            description: "Crashes the Host's Game for Tower Defense 2 (May take a few tries)",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['d/t', 't']);
             }
         }, {
             name: "Set Coins",
@@ -3340,7 +3105,7 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 let e = ["⁰", "\xb9", "\xb2", "\xb3", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹"],
                     t = t => {
                         let a = "";
-                        for (; t > 0;) a = e[t % 10] + a, t = ~~(t / 10);
+                        for (; t > 0;) a = e[t % parseInt("10")] + a, t = ~~(t / 10);
                         return a
                     },
                     a = e => {
@@ -3462,6 +3227,23 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
                     fossilMult: e
                 })
+            }
+        }, {
+            name: "Crash Host (Dino)",
+            description: "Crashes the Host's Game for Deceptive Dinos",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['f/t', 't']);
             }
         }, {
             name: "Stop Cheating",
@@ -4331,21 +4113,6 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
             }
         }],
         fishing: [{
-            name: "Frenzy",
-            description: "Sets everyone to frenzy mode",
-            run: function() {
-                var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
-                e.props.liveGameController.setVal({
-                    path: "c/" + e.props.client.name,
-                    val: {
-                        b: e.props.client.blook,
-                        w: e.state.weight,
-                        f: "Frenzy",
-                        s: !0
-                    }
-                })
-            }
-        }, {
             name: "Always Frenzy",
             description: "Always sets everyone to frenzy mode",
             type: "toggle",
@@ -4380,6 +4147,25 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 }
             }
         }, {
+            name: "Client Sided Frenzy",
+            description: "Frenzy for you only",
+            type: "toggle",
+            enabled: !1,
+            run: function() {
+                const componentInstance = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode;
+                if (this.enabled) {
+                    this.enabled = !1;
+                    componentInstance.setState({
+                        isFrenzy: false
+                    });
+                } else {
+                    this.enabled = !0;
+                    componentInstance.setState({
+                        isFrenzy: true
+                    });
+                }
+            }
+        }, {
             name: "Remove Distractions",
             description: "Removes distractions",
             type: "toggle",
@@ -4391,6 +4177,21 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                         party: ""
                     })
                 }, 50))
+            }
+        }, {
+            name: "Frenzy",
+            description: "Sets everyone to frenzy mode",
+            run: function() {
+                var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e.props.liveGameController.setVal({
+                    path: "c/" + e.props.client.name,
+                    val: {
+                        b: e.props.client.blook,
+                        w: e.state.weight,
+                        f: "Frenzy",
+                        s: !0
+                    }
+                })
             }
         }, {
             name: "Send Distraction",
@@ -4743,6 +4544,84 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 run: function(score) {
                     Object.values(document.querySelector("#phaser-bouncy"))[0].return.updateQueue.lastEffect.deps[1](score || 0);
                 }
+            }, {
+                name: "Change Game Code",
+                description: "Replace the old game with new HTML content",
+                inputs: [{
+                    name: "HTML Code",
+                    type: "text"
+                }],
+                run: function(newHtml) {
+                    (function() {
+
+                        if (newHtml) {
+
+                            var canvas = document.querySelector('canvas[width="320"][height="480"]');
+
+                            if (canvas) {
+
+                                var tempContainer = document.createElement('div');
+                                tempContainer.innerHTML = newHtml;
+
+                                var wrapperDiv = document.createElement('div');
+                                wrapperDiv.style.width = '320px';
+                                wrapperDiv.style.height = '480px';
+                                wrapperDiv.style.overflow = 'auto';
+                                wrapperDiv.style.boxSizing = 'border-box';
+                                wrapperDiv.style.position = canvas.style.position;
+                                wrapperDiv.style.marginLeft = canvas.style.marginLeft;
+                                wrapperDiv.style.marginTop = canvas.style.marginTop;
+                                wrapperDiv.style.cursor = canvas.style.cursor;
+                                wrapperDiv.style.backgroundColor = '#f0f0f0';
+
+                                while (tempContainer.firstChild) {
+                                    wrapperDiv.appendChild(tempContainer.firstChild);
+                                }
+
+                                canvas.parentNode.replaceChild(wrapperDiv, canvas);
+                            }
+
+                            var scoreTextDiv = document.querySelector('div._scoreText_e2c5l_7');
+                            if (scoreTextDiv) {
+                                scoreTextDiv.parentNode.removeChild(scoreTextDiv);
+                            }
+                        }
+                    })();
+                }
+            }, {
+                name: "Change Settings",
+                description: "Changes various game mechanics and lets you play with the spacebar",
+                inputs: [{
+                    name: "Bird Gravity",
+                    type: "number",
+                    value: 800
+                }, {
+                    name: "Bird Speed",
+                    type: "number",
+                    value: 125
+                }, {
+                    name: "Bird Flap Power",
+                    type: "number",
+                    value: 300
+                }],
+                run: function(a, b, c) {
+                    const scene = Object.values(document.querySelector("#phaser-bouncy"))[0].return.updateQueue.lastEffect.deps[0].current.config.sceneConfig;
+                    scene.birdGravity = a;
+                    scene.birdSpeed = b;
+                    scene.birdFlapPower = c;
+                    scene.flap = function() {
+                        this.isStarted || (this.bird.body.gravity.y = this.birdGravity,
+                                this.pipeGroup.setVelocityX(-this.birdSpeed),
+                                this.groundGroup.setVelocityX(-this.birdSpeed),
+                                this.isStarted = !0),
+                            this.bird.body.velocity.y = -this.birdFlapPower
+                    }
+                    scene.input._events.pointerdown = [];
+                    scene.create();
+                    scene.input.keyboard.addKey('SPACE').on("down", e => {
+                        scene.flap.call(scene);
+                    });
+                }
             }
         ],
         gold: [{
@@ -4760,6 +4639,25 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                             val: 3,
                             text: "Triple Gold!",
                             blook: "Unicorn"
+                        }, e._choosePrize(t)
+                    }
+                }, 50))
+            }
+        }, {
+            name: "Always Quintuple",
+            description: "Always get quintuple gold",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e._choosePrize ||= e.choosePrize, this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null, e.choosePrize = e._choosePrize || e.choosePrize) : (this.enabled = !0, this.data = setInterval(() => {
+                    e.choosePrize = function(t) {
+                        e.state.choices[t] = {
+                            type: "multiply",
+                            val: 5,
+                            text: "Quintuple Gold!",
+                            blook: "Ice Elemental"
                         }, e._choosePrize(t)
                     }
                 }, 50))
@@ -4896,6 +4794,53 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 }, 50))
             }
         }, {
+            name: "Flood Alert Box",
+            description: "Makes the alert box filled with text",
+            inputs: [{
+                name: "Text",
+                type: "text"
+            }],
+            run: function(userInput) {
+                function getReactOwner() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function repeatText(text, times) {
+                    return new Array(times).fill(text).join(" ");
+                }
+
+                function setValForPlayer() {
+                    getReactOwner().stateNode.props.liveGameController.getDatabaseVal("c/").then(data => {
+                        if (data != null) {
+
+                            const playerName = Object.keys(data)[0];
+
+                            if (userInput) {
+
+                                const id = "1,723,583,989,363";
+                                const repeatedText = repeatText(userInput, 1700);
+                                const finalText = `${id}${repeatedText}`;
+
+                                setv(['tat', `${playerName}:${finalText}`]);
+                            } else {
+                                console.log("No text entered. Operation cancelled.");
+                            }
+                        } else {
+                            console.log("Player not found!");
+                        }
+                    });
+                }
+
+                function setv(args) {
+                    getReactOwner().stateNode.props.liveGameController.setVal({
+                        path: "c/" + getReactOwner().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setValForPlayer();
+            }
+        }, {
             name: "Reset Players Gold",
             description: "Sets a player's gold to 0",
             inputs: [{
@@ -4968,6 +4913,62 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 })
             }
         }, {
+            name: "Set Player's Gold",
+            description: "Sets a players gold to any amount.",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let e = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }, {
+                name: "Amount",
+                type: "input"
+            }],
+            run: (player, amount) => {
+                const sn = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                sn.props.liveGameController.setVal({
+                    path: `c/${sn.props.client.name}/tat`,
+                    val: `${player}:swap:${amount}`
+                });
+            }
+        }, {
+            name: "Send Ad Text",
+            description: "Sends a load of text to another player (This will override your blook!)",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                    }())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]));
+                }
+            }, {
+                name: "Text"
+            }],
+            run: async function(player, e) {
+                let {
+                    props: t2
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                }())[1].children[0]._owner.stateNode;
+
+                let repeatedText = `Dog:${Array(500).fill(e).join(' ')}`;
+                t2.client.blook = repeatedText;
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/b`,
+                    val: repeatedText
+                });
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/tat`,
+                    val: `${player}:196`
+                });
+            }
+        }, {
             name: "Reset All Players' Gold",
             description: "Set's everyone else's gold to 0",
             run: function() {
@@ -4989,6 +4990,23 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                         }), o++, await new Promise(e => setTimeout(e, 4e3));
                     alert(`Reset ${o} players' gold!`)
                 })
+            }
+        }, {
+            name: "Crash Host (Gold)",
+            description: "Crashes the Host's Game for Gold Quest",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['g/t', 't']);
             }
         }],
         kingdom: [{
@@ -5122,6 +5140,44 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                     }
                 });
             }
+        }, {
+            name: "Attack Player",
+            description: "Sends the specified attack to a player",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }, {
+                name: "Attack",
+                type: "options",
+                options: Object.entries({
+                    "Woosh(-1)": "wind",
+                    "Rocket(-1)": "rocket",
+                    "Fire(-3)": "fire",
+                    "Freeze": "freeze"
+                }).map(([e, t]) => ({
+                    name: e,
+                    value: t
+                }))
+            }],
+            run: function(player, attack) {
+                let {
+                    stateNode
+                } = Object.values((function react(r = document.querySelector("body>div")) {
+                    return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div"))
+                })())[1].children[0]._owner;
+                stateNode.props.liveGameController.setVal({
+                    path: `c/${stateNode.props.client.name}/tat`,
+                    val: player + ":" + attack
+                });
+            }
         }],
         extras: [{
             name: "Toggle Invert Colors",
@@ -5226,6 +5282,71 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 !0 === done && alert("History flood successful! " + window.location.href + " now appears in your history " + t + (1 == t ? " time." : " times. "))
             }
         }, {
+            name: "Auto Clicker",
+            description: "Automatically clicks for you. Press S to toggle.",
+            inputs: [{
+                name: "Click Delay",
+                type: "number"
+            }],
+            run: function(inputs) {
+                clicker: {
+                    "use strict";
+
+                    let clickInterval = null;
+                    let clickingEnabled = true;
+
+                    const {
+                        Number,
+                        self
+                    } = window;
+                    const milliseconds = Number.parseInt(inputs, 10);
+
+                    if (false === Number.isSafeInteger(milliseconds)) {
+                        self.alert("Input was not an integer");
+                        break clicker;
+                    }
+
+                    let clientX = 0,
+                        clientY = 0;
+                    const {
+                        document
+                    } = self;
+
+                    function startClicking() {
+                        clickInterval = self.setInterval(() => {
+                            document.elementFromPoint(clientX, clientY)?.click?.();
+                        }, milliseconds);
+                    }
+
+                    function stopClicking() {
+                        self.clearInterval(clickInterval);
+                        clickInterval = null;
+                    }
+
+                    startClicking();
+
+                    document.addEventListener("mousemove", event => {
+                        ({
+                            clientX,
+                            clientY
+                        } = event);
+                    }, {
+                        passive: true
+                    });
+
+                    self.addEventListener("keydown", event => {
+                        if (event.key === "s") {
+                            if (clickingEnabled) {
+                                stopClicking();
+                            } else {
+                                startClicking();
+                            }
+                            clickingEnabled = !clickingEnabled;
+                        }
+                    });
+                }
+            }
+        }, {
             name: "Tab Cloaker",
             description: "Changes the tab image and name",
             inputs: [{
@@ -5238,6 +5359,318 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
             run: function(e, t) {
                 var a = document.querySelector("link[rel*='icon']") || document.createElement("link");
                 a.type = "image/x-icon", a.rel = "shortcut icon", a.href = e || "https://www.blooket.com/favicon.ico", document.getElementsByTagName("head")[0].appendChild(a), document.title = t || "Blooket"
+            }
+        }],
+        host: [{
+            name: "Host Any Gamemode",
+            description: "Change the selected gamemode on the host settings page",
+            inputs: [{
+                name: "Gamemode",
+                type: "options",
+                options: ["Racing", "Classic", "Factory", "Cafe", "Defense2", "Defense", "Royale", "Gold", "Candy", "Brawl", "Hack", "Pirate", "Fish", "Dino", "Toy", "Rush"]
+            }],
+            run: function(e) {
+                let t = document.createElement("iframe");
+                if (document.body.append(t), window.alert = t.contentWindow.alert.bind(window), window.prompt = t.contentWindow.prompt.bind(window), t.remove(), "/host/settings" != location.pathname) return alert("Run this script on the host settings page");
+                let {
+                    stateNode: a
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                }())[1].children[0]._owner;
+                a.setState({
+                    settings: {
+                        type: e
+                    }
+                })
+            }
+        }, {
+            name: "Toggle Spooky Theme",
+            description: "Toggles the spooky theme for Gold Quest",
+            run: function() {
+                (() => {
+                    const sn = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                    sn.season = sn.season ? 0 : 1;
+                    sn.render();
+                })();
+            }
+        }, {
+            name: "Freeze Timer",
+            description: "Makes the host timer stop ingame",
+            run: function() {
+                (() => {
+                    const {
+                        stateNode
+                    } = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner;
+                    clearInterval(stateNode.timerInterval);
+                    stateNode.timerInterval = setInterval(function() {
+                        stateNode?.getClients?.(!1);
+                    }, 4000);
+                })();
+            }
+        }, {
+            name: "Render Hours on Host Timer",
+            description: "Renders hours on host timer(use with remove host time limit). Can only render up to 24 hours.",
+            run: function() {
+                (() => {
+                    const format = "HH:mm:ss";
+                    const reg = '/(\\[[^\\[]*\\])|(\\\\)?(LTS|LT|LL?L?L?|l{1,4})/g';
+                    if (!RegExp.prototype.tes) {
+                        RegExp.prototype.tes = RegExp.prototype.test;
+                    }
+                    RegExp.prototype.test = function(a) {
+                        if (a == "mm:ss" && this.toString() == reg) {
+                            return !0;
+                        }
+                        return RegExp.prototype.tes.apply(this, arguments);
+                    }
+                    if (!String.prototype.rep) {
+                        String.prototype.rep = String.prototype.replace;
+                    }
+                    String.prototype.replace = function(a, b) {
+                        if (this == "mm:ss" && a.toString() == reg) {
+                            return format;
+                        }
+                        return String.prototype.rep.apply(this, arguments);
+                    }
+                })();
+            }
+        }, {
+            name: "View Lobbychat Logs",
+            description: "View messages players type in chat",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                document.addEventListener("keydown", function(e) {
+                    if (e.key === "Shift" && e.code === "ShiftRight") {
+                        c.style.display = c.style.display === "none" ? "block" : "none";
+                    }
+                });
+
+                const c = document.createElement("div");
+                c.className = "chat-box";
+                document.body.appendChild(c);
+                const h = document.createElement("div");
+                h.className = "chat-header";
+                h.textContent = "Chat Logs (RSHIFT to hide)";
+                c.appendChild(h);
+                const b = document.createElement("div");
+                b.className = "chat-body";
+                c.appendChild(b);
+
+                function a(e) {
+                    const t = document.createElement("div");
+                    t.textContent = e;
+                    b.appendChild(t);
+                    b.scrollTop = b.scrollHeight;
+                }
+
+                c.style.position = "fixed";
+                c.style.bottom = "20px";
+                c.style.right = "20px";
+                c.style.width = "300px";
+                c.style.height = "400px";
+                c.style.backgroundColor = "#fff";
+                c.style.border = "1px solid #ccc";
+                c.style.boxShadow = "0px 0px 10px rgba(0, 0, 0, 0.2)";
+                c.style.display = "block";
+
+                b.style.height = "360px";
+                b.style.overflowY = "scroll";
+                b.style.padding = "10px";
+
+                h.addEventListener("click", () => {
+                    b.classList.toggle("open");
+                });
+
+                var da = reactHandler().stateNode.props.liveGameController._liveApp.database()._delegate._repoInternal.server_.onDataUpdate_;
+
+                function handleChat(e, t) {
+                    if (t != null) {
+                        if (e.includes("/msg")) {
+                            t?.msg && (console.log(t.msg), a(e.split("/")[2] + ": " + t.msg));
+                        }
+                    }
+                }
+
+                reactHandler().stateNode.props.liveGameController._liveApp.database()._delegate._repoInternal.server_.onDataUpdate_ = function(e, t, a, n) {
+                    console.log(e, t, a, n);
+                    handleChat(e, t);
+                    da(e, t, a, n);
+                };
+
+                window.logsv = false;
+
+                function onsv(e) {
+                    if (window.logsv) {
+                        a("Path: " + e.path.split("/").splice(2, 2).join("/") + " Val: " + ((typeof e.val === 'object') ? JSON.stringify(e.val) : e.val));
+                    }
+                }
+
+                var orgsv = reactHandler().stateNode.props.liveGameController.setVal;
+                reactHandler().stateNode.props.liveGameController.setVal = function() {
+                    onsv.apply(this, arguments);
+                    orgsv.apply(this, arguments);
+                };
+
+                reactHandler().stateNode.props.liveGameController._liveApp.database().ref(`${reactHandler().stateNode.props.liveGameController._liveGameCode}`).on("value", e => {});
+                a("Lobbychat successfully loaded!");
+
+                function app() {
+                    c.style.wordWrap = "break-word";
+                }
+
+                app();
+            }
+        }, {
+            name: "Remove Host Time Limit",
+            description: "Removes the host time limit",
+            run: function() {
+                (() => {
+                    const sn = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                    sn.onAmountUpdate = function(t) {
+                        let settings = sn.state.settings;
+                        settings.amount = parseInt(t.target.value);
+                        sn.setState({
+                            settings
+                        });
+                    }
+                })();
+            }
+        }, {
+            name: "Free Player Slots",
+            description: "Allows more players to join if the game is full",
+            run: async () => {
+                let i = document.createElement('iframe');
+                document.body.append(i);
+                const alert = i.contentWindow.alert.bind(window);
+                i.remove();
+                const stateNode = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                const players = await stateNode.props.liveGameController.getDatabaseVal("c");
+                let freed = 0;
+                if (!stateNode.state.blockedUsers) {
+                    stateNode.state.blockedUsers = [];
+                }
+                async function wait(time) {
+                    return new Promise(e => {
+                        setTimeout(e, time);
+                    });
+                }
+                async function blockUser(name) {
+                    if (stateNode.state.blockedUsers.includes(name)) {
+                        return;
+                    }
+                    const res = await fetch("https://fb.blooket.com/c/firebase/block", {
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        method: "POST",
+                        body: JSON.stringify({
+                            g: stateNode.props.host.id,
+                            u: name
+                        }),
+                        credentials: "include"
+                    });
+                    if (res.status !== 200) {
+                        return;
+                    }
+                    stateNode.state.blockedUsers.push(name);
+                    freed++;
+                    if (freed % parseInt("15") == 0) {
+                        await wait(600);
+                    }
+                    C.alerts?.[0].addLog("Freed user: " + name);
+                }
+                for (let i in players) {
+                    await blockUser(i);
+                }
+                alert(`Freed slots: ${freed}`);
+            }
+        }, {
+            name: "Realtime Updates",
+            description: "Makes leaderboard updates happen in real-time.",
+            run: async () => {
+                const stateNode = () => Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                (await stateNode().props.liveGameController.getDatabaseRef("")).on("value", e => stateNode()?.getClients?.(!1));
+            }
+        }, {
+            name: "Anti-Flood",
+            description: "Prevents bots from flooding the game",
+            enabled: false,
+            data: null,
+            run: function() {
+                if (this.enabled) {
+                    return;
+                }
+
+                this.enabled = true;
+                this.data = setInterval(async () => {
+                    var iframe = document.createElement("iframe");
+                    document.body.append(iframe);
+                    window.confirm = iframe.contentWindow.confirm.bind(window);
+                    iframe.style.display = "none";
+
+                    try {
+                        let stateNode = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode;
+                        var dbRef = await stateNode.props.liveGameController.getDatabaseRef("c");
+                        let currentClients = {},
+                            clientCounts = {};
+
+                        dbRef.on("value", snapshot => {
+                            var clients = snapshot.val() || {};
+                            var newClients = [];
+
+                            for (const key in clients) {
+                                if (!currentClients[key]) {
+                                    newClients.push(key);
+                                    clientCounts[key.replace(/[0-9]/g, "")] = (clientCounts[key.replace(/[0-9]/g, "")] || 0) + 1;
+                                }
+                            }
+
+                            currentClients = clients;
+
+                            for (const client of newClients) {
+                                if (currentClients[client].g || clientCounts[client.replace(/[0-9]/g, "")] > 1) {
+                                    stateNode.props.liveGameController.blockUser(client);
+                                    clientCounts[client.replace(/[0-9]/g, "")]--;
+                                }
+                            }
+                        });
+                    } catch (error) {
+                        console.error("An error occurred", error);
+                    }
+                }, 2000);
+            }
+        }, {
+            name: "Enable Mobile Hosting",
+            description: "Makes it so that you can host on mobile",
+            run: function() {
+                (function() {
+                    var metaViewport = document.querySelector('meta[name="viewport"]');
+                    if (metaViewport) {
+                        metaViewport.parentNode.removeChild(metaViewport);
+                    }
+                    var newMetaViewport = document.createElement('meta');
+                    newMetaViewport.name = 'viewport';
+                    newMetaViewport.content = 'width=1280, initial-scale=1';
+                    document.head.appendChild(newMetaViewport);
+                })();
+            }
+        }, {
+            name: "Kick All Players",
+            description: "Kicks all players from your game.",
+            run: async () => {
+                const sn = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                const db = await sn.props.liveGameController.getDatabaseVal("");
+                sn.props.liveGameController.setVal({
+                    path: "bu",
+                    val: Object.keys(db.c).reduce((a, b) => (a[b] = 1, a), db.bu ? db.bu : {})
+                });
+                sn.props.liveGameController.setVal({
+                    path: "c",
+                    val: {}
+                });
             }
         }],
         royale: [{
@@ -5254,10 +5687,17 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
             }
         }, {
             name: "Auto Answer",
-            description: "Chooses the correct answer for you",
-            run: function() {
-                var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
-                e?.onAnswer?.(!0, e.props.client.question.correctAnswers[0])
+            description: "Chooses the correct answer for you. Will answer with the time provided.",
+            inputs: [{
+                name: "Time (milliseconds)",
+                type: "number",
+                min: 0,
+                max: 20000,
+            }],
+            run: (a) => {
+                const stateNode = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                stateNode.startTime = performance.now() - a;
+                stateNode?.onAnswer?.(true, stateNode.props.client.question.correctAnswers[0]);
             }
         }],
         rush: [{
@@ -5299,6 +5739,27 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                     path: `c/${t.props.client.name}/d`,
                     val: e
                 })
+            }
+        }, {
+            name: "Freeze Host :)",
+            description: "They aint coming back with this one",
+            run: function() {
+                var largeNumber = "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999";
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                    numBlooks: largeNumber
+                });
+                if (t.isTeam) {
+                    t.props.liveGameController.setVal({
+                        path: `a/${t.props.client.name}/bs`,
+                        val: largeNumber
+                    });
+                } else {
+                    t.props.liveGameController.setVal({
+                        path: `c/${t.props.client.name}/bs`,
+                        val: largeNumber
+                    });
+                }
             }
         }],
         workshop: [{
@@ -5871,15 +6332,7 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                     style: {
                         margin: "5px"
                     }
-                }, l("img", {
-                    src: t || this.blookData?.Black?.url,
-                    alt: "blook",
-                    draggable: !1,
-                    style: {
-                        height: "22.5px",
-                        margin: "0 10px -5px 0"
-                    }
-                }), l("strong", {}, e), " ", a))
+                }, l("strong", {}, e), " ", a))
             },
             connection: null,
             data: {},
@@ -5889,28 +6342,23 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                         name: a,
                         value: o
                     }
-                    of(this.leaderboardEl || this.addLeaderboard(), this.leaderboard.innerHTML = "", e)) this.leaderboard.append(l("li", {
-                    style: {
-                        fontSize: "2rem",
-                        paddingInline: "72px 15px",
-                        paddingBlock: "1.25px",
-                        position: "relative"
-                    }
-                }, l("img", {
-                    src: this.blookData?.[t]?.url || this.blookData.Black.url,
-                    alt: t,
-                    draggable: !1,
-                    style: {
-                        height: "45px",
-                        position: "absolute",
-                        left: "15px"
-                    }
-                }), a, l("span", {
-                    innerText: this.parseNumber(parseInt(o)),
-                    style: {
-                        float: "right"
-                    }
-                })))
+                    of(this.leaderboardEl || this.addLeaderboard(), this.leaderboard.innerHTML = "", e)) {
+                    this.leaderboard.append(l("li", {
+                        style: {
+                            fontSize: "2rem",
+                            paddingInline: "15px 15px",
+                            paddingBlock: "1.25px",
+                            position: "relative",
+                            borderBottom: "2px solid orange",
+                            color: (a === Object.values(document.querySelector("#app>div>div"))?.[1]?.children?.[0]?._owner?.stateNode?.props?.client?.name) ? "#00FF00" : "#FFFFFF"
+                        }
+                    }, a, l("span", {
+                        innerText: this.parseNumber(parseInt(o)),
+                        style: {
+                            float: "right"
+                        }
+                    })))
+                }
             },
             parseNumber(e = 0) {
                 var t = e;
@@ -5933,72 +6381,7 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 return t
             },
             addLeaderboard() {
-                this.blookData ||= Object.values(webpackJsonp.push([
-                    [], {
-                        ""(e, t, a) {
-                            t.cache = a.c
-                        }
-                    },
-                    [
-                        [""]
-                    ]
-                ]).cache).find(e => e.exports?.a?.Alice && e.exports?.a?.Alien).exports.a, this.element.append(this.leaderboardEl = l("div", {
-                    id: "leaderboardContent",
-                    style: {
-                        position: "absolute",
-                        inset: "110% 0px"
-                    }
-                }, l("div", {
-                    style: {
-                        alignItems: "center",
-                        boxSizing: "border-box",
-                        display: "flex",
-                        flexDirection: "row",
-                        flexWrap: "wrap",
-                        justifyContent: "space-evenly",
-                        padding: "20px 5px 20px",
-                        position: "relative",
-                        width: "100%",
-                        fontFamily: "Nunito, sans-serif",
-                        fontWeight: "400",
-                        color: "var(--textColor)",
-                        background: "var(--contentBackground)",
-                        boxShadow: "inset 0 -6px rgb(0 0 0 / 20%)",
-                        borderRadius: "7px"
-                    }
-                }, l("div", {
-                    className: "headerText",
-                    style: {
-                        boxSizing: "border-box",
-                        display: "block",
-                        height: "45px",
-                        left: "-10px",
-                        padding: "4px 4px 8px",
-                        position: "absolute",
-                        top: "-28px",
-                        backgroundColor: "#ef7426",
-                        boxShadow: "0 4px rgb(0 0 0 / 20%), inset 0 -4px rgb(0 0 0 / 20%)",
-                        borderRadius: "7px"
-                    }
-                }, l("div", {
-                    style: {
-                        alignItems: "center",
-                        boxSizing: "border-box",
-                        display: "flex",
-                        height: "100%",
-                        justifyContent: "center",
-                        padding: "0 15px",
-                        width: "100%",
-                        fontFamily: "Titan One, sans-serif",
-                        fontSize: "26px",
-                        fontWeight: "400",
-                        textShadow: "-1px -1px 0 #646464, 1px -1px 0 #646464, -1px 1px 0 #646464, 2px 2px 0 #646464",
-                        color: "white",
-                        background: "linear-gradient(#fcd843,#fcd843 50%,#feb31a 50.01%,#feb31a)",
-                        borderRadius: "5px"
-                    },
-                    innerText: "Leaderboard"
-                })), l("div", {
+                this.leaderboardEl = l("div", {
                     className: "alertContainer",
                     style: {
                         margin: "15px 15px 5px 15px",
@@ -6021,23 +6404,18 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                         overflowY: "scroll",
                         wordWrap: "break-word"
                     }
-                })))))
+                }));
+                insertElemBefore("Leaderboard", "https://i.ibb.co/hZQjjVP/trophy-icon.webp", [{
+                    element: this.leaderboardEl
+                }], !0, h.children[3]);
+                this.addLog("Leaderboard Loaded!");
             },
             async connect() {
                 try {
-                    var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                    var e = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
                     if (!e?.props?.liveGameController?._liveGameCode) return !1;
-                    this.connection = await e.props.liveGameController.getDatabaseRef("c");
-                    let t = this.blookData = Object.values(webpackJsonp.push([
-                            [], {
-                                ""(e, t, a) {
-                                    t.cache = a.c
-                                }
-                            },
-                            [
-                                [""]
-                            ]
-                        ]).cache).find(e => e.exports?.a?.Alice && e.exports?.a?.Alien).exports.a,
+                    this.connection = await e.props.liveGameController.getDatabaseRef("");
+                    let t = "Cow",
                         a = this.getGamemode(),
                         o = {
                             lb: "Lunch Break",
@@ -6054,12 +6432,22 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                             m: "Micro"
                         };
                     this.connection.on("value", e => {
-                        var r = e.val() || {};
+                        var r = e.val()?.c || {};
                         if (r && this.diffObjects(this.data, r)) {
                             var i, n, s, l, c, d, p, u, h = this.diffObjects(this.data, r);
                             this.data = r;
-                            let m;
-                            switch (a) {
+                            let m = [];
+                            switch (this.getGamemode()) {
+                                case "pirate":
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        d: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
                                 case "racing":
                                     m = Object.entries(r).map(([e, {
                                         b: t,
@@ -6069,6 +6457,7 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                                         blook: t,
                                         value: a || 0
                                     }));
+                                    break;
                                 case "classic":
                                     m = Object.entries(r).map(([e, {
                                         b: t,
@@ -6078,6 +6467,7 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                                         blook: t,
                                         value: a || 0
                                     }));
+                                    break;
                                 case "royale":
                                     m = Object.entries(r).map(([e, {
                                         b: t,
@@ -6087,7 +6477,8 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                                         blook: t,
                                         value: a || 0
                                     }));
-                                case "workshop":
+                                    break;
+                                case "toy":
                                     m = Object.entries(r).map(([e, {
                                         b: t,
                                         t: a
@@ -6096,6 +6487,7 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                                         blook: t,
                                         value: a || 0
                                     }));
+                                    break;
                                 case "brawl":
                                     m = Object.entries(r).map(([e, {
                                         b: t,
@@ -6105,6 +6497,7 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                                         blook: t,
                                         value: a || 0
                                     }));
+                                    break;
                                 case "defense":
                                 case "defense2":
                                     m = Object.entries(r).map(([e, {
@@ -6115,8 +6508,9 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                                         blook: t,
                                         value: a || 0
                                     }));
+                                    break;
                                 case "gold":
-                                    for (let $ in h) h[$].tat && ([i, n] = h[$].tat.split(":"), "swap" == n ? this.addAlert($, t[r[$].b]?.url, "just swapped with " + i) : this.addAlert($, t[r[$].b]?.url, `just took ${this.parseNumber(parseInt(n))} gold from ` + i));
+                                    for (let $ in h) h[$].tat?.split && ([i, n] = h[$].tat.split(":"), "swap" == n ? this.addAlert($, t[r[$].b]?.url, "just swapped with " + i) : this.addAlert($, t[r[$].b]?.url, `just took ${this.parseNumber(parseInt(n))} gold from ` + i));
                                     m = Object.entries(r).map(([e, {
                                         b: t,
                                         g: a
@@ -6127,7 +6521,7 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                                     }));
                                     break;
                                 case "hack":
-                                    for (let g in h) h[g].tat && ([s, l] = h[g].tat.split(":"), this.addAlert(g, t[r[g].b]?.url, `just took ${this.parseNumber(parseInt(l))} crypto from ` + s));
+                                    for (let g in h) h[g].tat?.split && ([s, l] = h[g].tat.split(":"), this.addAlert(g, t[r[g].b]?.url, `just took ${this.parseNumber(parseInt(l))} crypto from ` + s));
                                     m = Object.entries(r).map(([e, {
                                         b: t,
                                         cr: a
@@ -6184,7 +6578,7 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                                         value: a || 0
                                     }))
                             }
-                            this.updateLeaderboard(m.sort((e, t) => t.value - e.value))
+                            this.updateLeaderboard(m.sort((e, t) => t.value - e.value));
                         }
                     })
                 } catch {
@@ -6198,11 +6592,16 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 return 0 == Object.keys(o).length ? null : o
             },
             getGamemode() {
+                if (Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode.props?.client?.type) {
+                    return Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode.props.client.type.toLowerCase();
+                }
                 switch (window.location.pathname) {
                     case "/play/racing":
                         return "racing";
                     case "/play/extras":
                         return "extras";
+                    case "/play/host":
+                        return "host";
                     case "/play/pirate":
                         return "voyage";
                     case "/play/factory":
@@ -6220,7 +6619,7 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                     case "/play/battle-royale/match/result":
                         return "royale";
                     case "/play/toy":
-                        return "workshop";
+                        return "toy";
                     case "/play/gold":
                         return "gold";
                     case "/play/brawl":
@@ -6267,7 +6666,7 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
             }
         }
     }
-    w("Alerts", "https://i.ibb.co/hBNyCXG/559343-1.png", C.alerts, !0), w("Global", "https://i.ibb.co/gd4Qs8L/11507ef5615c554fe88fc22c86768501-simple-earth-icon-1.webp", C.global)(), w("Host", "https://i.ibb.co/QpDgysb/computer-1865273-1.png", C.beta), w('<span style="font-size: 18px">Pirate\'s Voyage</span>', "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zOnNlcmlmPSJodHRwOi8vd3d3LnNlcmlmLmNvbS8iIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MjsiPjxnIGlkPSJCb2F0Ij48cGF0aCBkPSJNMTcwLjQsNTYuMDU0Yy02OC43ODgsMTAuMTc0IC0xMTUuOTcxLDU2LjkzOCAtMTQ1LjQxMSwxMzMuNzVsMTUuNDY5LDcuNzM0YzMwLjk2MiwtMjguMTc1IDc0LjcwNSwtMzcuNzg3IDEzMi4zMjIsLTI3LjI1bDAsLTE3LjYxMWMtMjUuNjI5LC0yNy45NTIgLTI2Ljk2NiwtNTYuNzcyIDAuNzE0LC04Ni42MjhsLTMuMDk0LC05Ljk5NVoiIHN0eWxlPSJmaWxsOiNmNmUwYmQ7Ii8+PHBhdGggZD0iTTE5OS42NzMsNjAuODEzYzMyLjc4NCw0Mi45ODIgNjUuODIyLDkwLjg4NyA5Ny4zMzcsMTM5LjU4MWwtNi42NjMsMGMtMTIuMDg1LC0zMS4xMTEgLTU3Ljg4MiwtMzkuNjk0IC05MS42MjYsLTI3LjI1YzIyLjUxNCwtMzQuNTc5IDE3Ljc5NiwtNzIuNjczIDAuOTUyLC0xMTIuMzMxWiIgc3R5bGU9ImZpbGw6I2Y2ZTBiZDsiLz48cGF0aCBkPSJNNjkuNDQ4LDE5Ny41MzhjMCwwIC01OS43MDcsLTE1LjI0MyAtNjguMzk4LC0xNy40NjJjLTAuMDc2LC0wLjAxOSAtMC4xNTQsMC4wMiAtMC4xODQsMC4wOTJjLTAuMDMsMC4wNzIgLTAuMDAyLDAuMTU1IDAuMDY1LDAuMTk1YzkuNjgyLDUuNzc1IDkxLjY0Nyw1NC42NTggOTEuNjQ3LDU0LjY1OGwtMjMuMTMsLTM3LjQ4M1oiIHN0eWxlPSJmaWxsOiM4ZDZlNDE7Ii8+PHBhdGggZD0iTTE2NC40NSw0Ny45MDNjMCwtNS4zNTMgNC4zNDYsLTkuNjk4IDkuNjk4LC05LjY5OGwxOS4zOTcsLTBjNS4zNTIsLTAgOS42OTgsNC4zNDUgOS42OTgsOS42OThsLTAsMTU2Ljk1M2MtMCw1LjM1MyAtNC4zNDYsOS42OTggLTkuNjk4LDkuNjk4bC0xOS4zOTcsMGMtNS4zNTIsMCAtOS42OTgsLTQuMzQ1IC05LjY5OCwtOS42OThsMCwtMTU2Ljk1M1oiIHN0eWxlPSJmaWxsOiM3ZjY4NDU7Ii8+PHBhdGggZD0iTTI2My45OTMsMjU2LjEwM2MyMi4xNzEsLTE0LjcxIDM2LjAwNywtMzUuNTE1IDM2LjAwNywtNTguNTY1bC0yMzAuNTUyLDBjMCwyMy43MTMgMTQuNjQzLDQ1LjA1IDM3Ljk0LDU5LjgxOWM5Ljg3NSwtMy43MjkgMjAuMDQxLC0xMS4zMzQgMzAuNDYzLC0yMi4zMzZjMzIuODExLDM1LjQ1NSA2NC4wNjksMzUuOTQzIDkzLjcwOCwwYzYuODM4LDkuNjc3IDE3LjczNiwxNi42NDYgMzIuNDM0LDIxLjA4MloiIHN0eWxlPSJmaWxsOiNiNjkyNWY7Ii8+PC9nPjwvc3ZnPg==", C.voyage), w("Gold quest", "https://media.blooket.com/image/upload/v1661496292/Media/uiTest/Gold.svg", C.gold), w("Cafe", "https://i.ibb.co/t8pqdYL/hot-beverage-1.png", C.cafe), w("Crypto Hack", "https://media.blooket.com/image/upload/v1661496293/Media/uiTest/CryptoIcon.svg", C.crypto), w('<span style="font-size: 17px">Deceptive Dinos</span>', "https://i.ibb.co/JFq5j88/Screenshot-2024-03-26-7-30-21-PM-removebg-preview-1.png", C.dinos), w('<span style="font-size: 18px">Tower Defense</span>', ['<img style="width: 30px; margin-right: 5px" src="https://media.blooket.com/image/upload/v1657235025/Media/survivor/Laser_Lvl1.svg">'], C.defense), w('<span style="font-size: 16px">Tower Defense 2</span>', ['<img style="width: 30px; margin-right: 5px; rotate: 45deg" src="https://media.blooket.com/image/upload/v1593095354/Media/defense/missile.svg">'], C.defense2), w("Factory", "https://i.ibb.co/VMrTd39/images-removebg-preview-1.png", C.factory), w('<span style="font-size: 19px">Fishing Frenzy</span>', "https://media.blooket.com/image/upload/v1661496295/Media/uiTest/Fish_Weight.svg", C.fishing), w("Flappy Blook", "https://media.blooket.com/image/upload/v1645222006/Blooks/yellowBird.svg", C.flappy), w('<span style="font-size: 17px">Tower of Doom</span>', ['<img style="height: 30px; margin-left: 5px; margin-right: 10px" src="https://media.blooket.com/image/upload/v1657235023/Media/survivor/cards-05.svg">'], C.doom), w('<span style="font-size: 18px">Crazy Kingdom</span>', "https://i.ibb.co/10mZ6dx/3763864-1.png", C.kingdom), w("Racing", "https://media.blooket.com/image/upload/v1661496295/Media/uiTest/Racing_Progress.svg", C.racing), w("Battle Royale", "https://media.blooket.com/image/upload/v1655936179/Media/br/VS_Lightning_Bolt_Bottom.svg", C.royale), w("Blook Rush", "data:image/png;base64,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", C.rush), w('<span style="font-size: 18px">Monster Brawl</span>', ['<img style="height: 28px; margin-left: 5px; margin-right: 8px" src="https://media.blooket.com/image/upload/v1655233787/Media/survivor/xp/Blue_xp_2.svg">'], C.brawl), w('<span style="font-size: 15px">Santa\'s Workshop</span>', "https://i.ibb.co/Y2SFc9Y/Santa-Workshop-Finished-icon-1.webp", C.workshop), w("Extras", "https://i.ibb.co/mb0R9HX/Star-icon-stylized-svg-1-removebg-preview.png", C.extras, !0), w("Settings", "https://i.ibb.co/jrWKgyn/Windows-Settings-icon-1.png", C.settings, !0), S(m, _), S(g, _), window.addEventListener("keydown", A);
+    w("Alerts", "https://i.ibb.co/hBNyCXG/559343-1.png", C.alerts, !0), w("Global", "https://i.ibb.co/gd4Qs8L/11507ef5615c554fe88fc22c86768501-simple-earth-icon-1.webp", C.global)(), w("Host", "https://i.ibb.co/QpDgysb/computer-1865273-1.png", C.host, !0), w('<span style="font-size: 18px">Pirate\'s Voyage</span>', "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zOnNlcmlmPSJodHRwOi8vd3d3LnNlcmlmLmNvbS8iIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MjsiPjxnIGlkPSJCb2F0Ij48cGF0aCBkPSJNMTcwLjQsNTYuMDU0Yy02OC43ODgsMTAuMTc0IC0xMTUuOTcxLDU2LjkzOCAtMTQ1LjQxMSwxMzMuNzVsMTUuNDY5LDcuNzM0YzMwLjk2MiwtMjguMTc1IDc0LjcwNSwtMzcuNzg3IDEzMi4zMjIsLTI3LjI1bDAsLTE3LjYxMWMtMjUuNjI5LC0yNy45NTIgLTI2Ljk2NiwtNTYuNzcyIDAuNzE0LC04Ni42MjhsLTMuMDk0LC05Ljk5NVoiIHN0eWxlPSJmaWxsOiNmNmUwYmQ7Ii8+PHBhdGggZD0iTTE5OS42NzMsNjAuODEzYzMyLjc4NCw0Mi45ODIgNjUuODIyLDkwLjg4NyA5Ny4zMzcsMTM5LjU4MWwtNi42NjMsMGMtMTIuMDg1LC0zMS4xMTEgLTU3Ljg4MiwtMzkuNjk0IC05MS42MjYsLTI3LjI1YzIyLjUxNCwtMzQuNTc5IDE3Ljc5NiwtNzIuNjczIDAuOTUyLC0xMTIuMzMxWiIgc3R5bGU9ImZpbGw6I2Y2ZTBiZDsiLz48cGF0aCBkPSJNNjkuNDQ4LDE5Ny41MzhjMCwwIC01OS43MDcsLTE1LjI0MyAtNjguMzk4LC0xNy40NjJjLTAuMDc2LC0wLjAxOSAtMC4xNTQsMC4wMiAtMC4xODQsMC4wOTJjLTAuMDMsMC4wNzIgLTAuMDAyLDAuMTU1IDAuMDY1LDAuMTk1YzkuNjgyLDUuNzc1IDkxLjY0Nyw1NC42NTggOTEuNjQ3LDU0LjY1OGwtMjMuMTMsLTM3LjQ4M1oiIHN0eWxlPSJmaWxsOiM4ZDZlNDE7Ii8+PHBhdGggZD0iTTE2NC40NSw0Ny45MDNjMCwtNS4zNTMgNC4zNDYsLTkuNjk4IDkuNjk4LC05LjY5OGwxOS4zOTcsLTBjNS4zNTIsLTAgOS42OTgsNC4zNDUgOS42OTgsOS42OThsLTAsMTU2Ljk1M2MtMCw1LjM1MyAtNC4zNDYsOS42OTggLTkuNjk4LDkuNjk4bC0xOS4zOTcsMGMtNS4zNTIsMCAtOS42OTgsLTQuMzQ1IC05LjY5OCwtOS42OThsMCwtMTU2Ljk1M1oiIHN0eWxlPSJmaWxsOiM3ZjY4NDU7Ii8+PHBhdGggZD0iTTI2My45OTMsMjU2LjEwM2MyMi4xNzEsLTE0LjcxIDM2LjAwNywtMzUuNTE1IDM2LjAwNywtNTguNTY1bC0yMzAuNTUyLDBjMCwyMy43MTMgMTQuNjQzLDQ1LjA1IDM3Ljk0LDU5LjgxOWM5Ljg3NSwtMy43MjkgMjAuMDQxLC0xMS4zMzQgMzAuNDYzLC0yMi4zMzZjMzIuODExLDM1LjQ1NSA2NC4wNjksMzUuOTQzIDkzLjcwOCwwYzYuODM4LDkuNjc3IDE3LjczNiwxNi42NDYgMzIuNDM0LDIxLjA4MloiIHN0eWxlPSJmaWxsOiNiNjkyNWY7Ii8+PC9nPjwvc3ZnPg==", C.voyage), w("Gold quest", "https://media.blooket.com/image/upload/v1661496292/Media/uiTest/Gold.svg", C.gold), w("Cafe", "https://i.ibb.co/t8pqdYL/hot-beverage-1.png", C.cafe), w("Crypto Hack", "https://media.blooket.com/image/upload/v1661496293/Media/uiTest/CryptoIcon.svg", C.crypto), w('<span style="font-size: 17px">Deceptive Dinos</span>', "https://i.ibb.co/JFq5j88/Screenshot-2024-03-26-7-30-21-PM-removebg-preview-1.png", C.dinos), w('<span style="font-size: 18px">Tower Defense</span>', ['<img style="width: 30px; margin-right: 5px" src="https://media.blooket.com/image/upload/v1657235025/Media/survivor/Laser_Lvl1.svg">'], C.defense), w('<span style="font-size: 16px">Tower Defense 2</span>', ['<img style="width: 30px; margin-right: 5px; rotate: 45deg" src="https://media.blooket.com/image/upload/v1593095354/Media/defense/missile.svg">'], C.defense2), w("Factory", "https://i.ibb.co/VMrTd39/images-removebg-preview-1.png", C.factory), w('<span style="font-size: 19px">Fishing Frenzy</span>', "https://media.blooket.com/image/upload/v1661496295/Media/uiTest/Fish_Weight.svg", C.fishing), w("Flappy Blook", "https://media.blooket.com/image/upload/v1645222006/Blooks/yellowBird.svg", C.flappy), w('<span style="font-size: 17px">Tower of Doom</span>', ['<img style="height: 30px; margin-left: 5px; margin-right: 10px" src="https://media.blooket.com/image/upload/v1657235023/Media/survivor/cards-05.svg">'], C.doom), w('<span style="font-size: 18px">Crazy Kingdom</span>', "https://i.ibb.co/10mZ6dx/3763864-1.png", C.kingdom), w("Racing", "https://media.blooket.com/image/upload/v1661496295/Media/uiTest/Racing_Progress.svg", C.racing), w("Battle Royale", "https://media.blooket.com/image/upload/v1655936179/Media/br/VS_Lightning_Bolt_Bottom.svg", C.royale), w("Blook Rush", "data:image/png;base64,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", C.rush), w('<span style="font-size: 18px">Monster Brawl</span>', ['<img style="height: 28px; margin-left: 5px; margin-right: 8px" src="https://media.blooket.com/image/upload/v1655233787/Media/survivor/xp/Blue_xp_2.svg">'], C.brawl), w('<span style="font-size: 15px">Santa\'s Workshop</span>', "https://i.ibb.co/Y2SFc9Y/Santa-Workshop-Finished-icon-1.webp", C.workshop), w("Extras", "https://i.ibb.co/mb0R9HX/Star-icon-stylized-svg-1-removebg-preview.png", C.extras, !0), w("Settings", "https://i.ibb.co/jrWKgyn/Windows-Settings-icon-1.png", C.settings, !0), S(m, _), S(g, _), window.addEventListener("keydown", A);
     let x = setInterval(() => {
         C.alerts[0].connection ? clearInterval(x) : C.alerts[0].connect()
     }, 5e3);
@@ -6311,27 +6710,24 @@ sn.props.liveGameController.setVal({path:"c",val:{}});}
                 };
             t.addEventListener("keydown", l), t.addEventListener("keyup", c)
         })
+    };
+    _.addEventListener("mousemove", e => {
+        var t, a;
+        "cheatName" != e.target.className && "scriptButton" != e.target.className ? "0" != y.style.opacity && (y.animate([{
+            opacity: .9
+        }, {
+            opacity: 0
+        }], {
+            duration: 200
+        }), y.style.opacity = "0") : (e = "scriptButton" == e.target.className ? e.target : e.target.parentElement, y.innerText == e.dataset.description && "0.9" == y.style.opacity || (t = e.getBoundingClientRect(), a = e.offsetParent.getBoundingClientRect(), y.innerText = e.dataset.description, "0" == y.style.opacity && (y.animate([{
+            opacity: 0
+        }, {
+            opacity: .9
+        }], {
+            duration: 200
+        }), y.style.opacity = "0.9"), y.style.left = t.x - a.x + (t.width - y.clientWidth) / 2 + "px", y.style.top = t.y - a.y + t.height + "px"))
+    }), window.fetch.call = function() {
+        if (!arguments[1].includes("s.blooket.com/rc")) return wfcall.apply(this, arguments);
+        C.alerts?.[0].addLog("Blooket Cheat Report Blocked!")
     }
-    if (_.addEventListener("mousemove", e => {
-            var t, a;
-            "cheatName" != e.target.className && "scriptButton" != e.target.className ? "0" != y.style.opacity && (y.animate([{
-                opacity: .9
-            }, {
-                opacity: 0
-            }], {
-                duration: 200
-            }), y.style.opacity = "0") : (e = "scriptButton" == e.target.className ? e.target : e.target.parentElement, y.innerText == e.dataset.description && "0.9" == y.style.opacity || (t = e.getBoundingClientRect(), a = e.offsetParent.getBoundingClientRect(), y.innerText = e.dataset.description, "0" == y.style.opacity && (y.animate([{
-                opacity: 0
-            }, {
-                opacity: .9
-            }], {
-                duration: 200
-            }), y.style.opacity = "0.9"), y.style.left = t.x - a.x + (t.width - y.clientWidth) / 2 + "px", y.style.top = t.y - a.y + t.height + "px"))
-        }), String(window.fetch.call).includes("native code")) {
-        var N = window.fetch.call;
-        window.fetch.call = function() {
-            if (!arguments[1].includes("s.blooket.com/rc")) return N.apply(this, arguments);
-            C.alerts?.[0].addLog("Blooket Anti-Cheat Blocked!")
-        }
-    } else console.log("already run")
 })();
